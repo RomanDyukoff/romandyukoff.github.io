@@ -527,13 +527,25 @@ footer {
   background-repeat: no-repeat;
 }
 .section1-container__secret-assistants h1 {
-  font-size: min(60px, 4vw);
+  font-size: min(60px, 3.2vw);
   font-style: normal;
   text-align: center;
   font-weight: 400;
-  line-height: min(60px, 4vw); /* 100% */
-  letter-spacing: -1.2px;
+  line-height: min(60px, 3.2vw); /* 100% */
+  letter-spacing: -2px;
   text-transform: uppercase;
+}
+.section4-kamen2__bankets {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.section4-kamen1__bankets {
+  position: absolute;
+  bottom: 28%;
+  left: 8.4%;
+  z-index: 9999999999;
 }
 .section1-container-img-blur__secret-assistants {
   -webkit-backdrop-filter: blur(100px);
@@ -914,11 +926,17 @@ footer {
 .section7-img__secret-assistants {
   position: relative;
   top: 55px;
-  width: 23%;
+  width: 30%;
 }
 
 .section3-container-block__bankets span {
   display: none;
+}
+.section3-container-block__bankets:nth-child(2) {
+  border-right: none;
+}
+.section3-container-block__bankets:nth-child(4) {
+  border-right: none;
 }
 .section7-p__secret-assistants {
   position: relative;
@@ -1247,15 +1265,23 @@ footer {
   align-items: center;
   justify-content: center;
   height: 950px;
-  flex: 0 1 930px;
+  max-width: 930px;
   margin: 0 auto;
   padding: 0 20px;
   border-right: 1px solid #454545;
   border-left: 1px solid #454545;
+  padding-top: 80px;
+}
+.bankets__fs {
+  font-size: 84px !important;
+  line-height: 84px !important;
+  margin-bottom: 80px;
 }
 .section7__secret-assistants {
+  padding: 60px 0;
   border-bottom: 1px solid #454545;
 }
+
 .section3__vacancy {
   border-bottom: 1px solid #454545;
   position: relative;
@@ -1312,6 +1338,7 @@ header {
   left: 50%;
   top: 0;
   z-index: 1;
+  height: 100%;
 }
 .line-height__bankets-section1 {
   width: 1px;
@@ -1780,7 +1807,7 @@ header {
 }
 .section4-kamen3__bankets {
   position: absolute;
-  top: 583px;
+  top: 60%;
   right: 18%;
 }
 .section3-container-block__bankets-menu {
@@ -2033,7 +2060,7 @@ header {
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 3.65vw;
+  line-height: 48px;
   letter-spacing: -0.4px;
   text-transform: uppercase;
 }
@@ -2256,7 +2283,7 @@ header {
   background: #dfdfdf;
   margin-top: 20px;
   font-family: "FuturaPT", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 450;
   line-height: 20px; /* 125% */
@@ -2297,10 +2324,11 @@ header {
   margin-top: 1px;
   font-family: "FuturaPT", sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.2px;
   font-size: 18px;
   line-height: 24px; /* 133.333% */
+  color: #dfdfdf;
 }
 
 .input__file-button {
@@ -2308,9 +2336,9 @@ header {
   max-width: 209px;
   height: 20px;
   background: transparent;
-  color: #fff;
+  color: #dfdfdf;
   font-size: 1.125rem;
-  font-weight: 700;
+  font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2981,7 +3009,7 @@ header {
   align-items: center;
   justify-content: center;
   font-family: "FuturaPT", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px; /* 125% */
@@ -3145,15 +3173,19 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 40px;
+}
+.section7__franchise-tx {
+  padding-top: 0;
 }
 .section1-block__restoran {
   text-align: center;
   font-family: "FuturaPT", sans-serif;
-  font-size: 13vw;
+  font-size: 16.3vw;
   font-style: normal;
   font-weight: 600;
   line-height: 14vw; /* 68.323% */
-  letter-spacing: 72.45px;
+  letter-spacing: 3.65px;
   text-transform: uppercase;
 }
 .section1-block__restoran:first-child {
@@ -4034,6 +4066,9 @@ header {
 .section1__restoran-laptop {
   display: none;
 }
+.bg-left {
+  margin-left: 12%;
+}
 .section7-container-block-mob-bottom-left__catering {
   display: flex;
   align-items: center;
@@ -4824,11 +4859,11 @@ body .galleryAnim .galleryAnim__fraction {
 }
 .section6-container-block-top-left__career span {
   color: #454545;
-  font-family: "Futura PT", sans-serif;
-  font-size: 18px;
+  font-family: "FuturaPT", sans-serif;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 133.333% */
+  line-height: 26px; /* 133.333% */
   letter-spacing: 0.18px;
 }
 .section6-container-block-top-left__career p {
@@ -4844,6 +4879,13 @@ body .galleryAnim .galleryAnim__fraction {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+.p__vacancy-career {
+  display: block;
+  margin-bottom: 80px;
+}
+.city__career {
+  display: none;
 }
 .section6-container-block__career {
   display: flex;
@@ -5062,11 +5104,11 @@ body .galleryAnim .galleryAnim__fraction {
 
 .section-last-img__main {
   position: absolute;
-  top: 48%;
-  right: 28%;
-  width: 358.453px;
-  height: 241.223px;
-  transform: rotate(-15deg);
+  top: 40.9%;
+  right: 24.5%;
+  width: 404.453px;
+  height: 324.223px;
+  transform: rotate(-1deg);
   z-index: 9999999;
 }
 
@@ -5084,7 +5126,7 @@ body .galleryAnim .galleryAnim__fraction {
   line-height: 4.4vw;
   text-align: left;
   padding-top: 40px;
-  letter-spacing: -1.68px;
+  letter-spacing: -2px;
   text-transform: uppercase;
   padding-bottom: 24px;
 }
@@ -5097,7 +5139,7 @@ body .galleryAnim .galleryAnim__fraction {
   width: 180px;
   height: 40px;
   font-family: "FuturaPT", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   border-radius: 20px;
@@ -5827,12 +5869,12 @@ header {
   background-image: url("../img/arr-l.svg");
 }
 .news__action-navigate > button:disabled::after {
-    content: "";
-    filter: grayscale(40%);
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: rgb(0 0 0 / 50%);
+  content: "";
+  filter: grayscale(40%);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgb(0 0 0 / 50%);
 }
 .action {
   padding: 0;
@@ -5851,7 +5893,9 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
 }
-
+.franchise_cl-caption {
+  color: #dfdfdf !important;
+}
 .news__content {
   min-height: 50px;
   display: flex;
