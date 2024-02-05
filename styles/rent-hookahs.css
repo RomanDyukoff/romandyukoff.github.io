@@ -1,3 +1,6 @@
+.section1__rent-hookahs {
+    padding-bottom: 260px;
+}
 .section1-container__rent-hookahs {
     display: flex;
     align-items: center;
@@ -84,16 +87,39 @@
         --height: auto;
     }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1026px) {
     .image1 {
         --width: max(min(var(--size-tablet-width), 40%), var(--size-mobile-width));
         /*--height: max(max(var(--size-tablet-height), 100%), var(--size-tablet-height));*/
         --height: auto;
     }
+    .section1__rent-hookahs {
+        padding-bottom: 208px;
+    }
+    .section5-text__rent-hookahs {
+        padding: 0 !important;
+        font-size: 40px !important;
+        line-height: 48px !important;
+    }
+    .section3-container__hookahs {
+        padding: 240px 15px 260px 15px !important;
+    }
+    .section4__rent-hookahs {
+        padding-top: 248px !important;
+    }
+    div.section4__rent-hookahs > p {
+        font-size: 40px !important;
+        line-height: 48px !important;
+    }
 }
 @media (max-width: 375px) {
     .image1 {
         --width: var(--size-mobile-width);
+    }
+}
+@media (max-width: 475px) {
+    .section1__rent-hookahs {
+        padding-bottom: 48px;
     }
 }
 
@@ -152,7 +178,7 @@
 }
 
 .section3-container__hookahs {
-    padding: 280px 15px 220px 15px;
+    padding: 272px 15px 238px 15px;
     border-right: 1px solid #454545;
     border-left: 1px solid #454545;
 }
