@@ -54,7 +54,7 @@
   }
 
   .galleryAnim::before {
-    width: 734px;
+    width: 682px;
   }
 
   .section3-img__loyalty-program {
@@ -252,8 +252,12 @@
 }
 @media (max-width: 1150px) {
   .section7-container__secret-assistants p {
-    font-size: 40px !important;
-    line-height: 48px !important; /* 120% */
+    font-size: 60px !important;
+    line-height: 66px !important; /* 120% */
+  }
+  .franchise-page__desc > p {
+    font-size: 60px !important;
+    line-height: 66px !important; /* 120% */
   }
   .section7-container__secret-assistants {
     padding-top: 0;
@@ -292,7 +296,11 @@
     right: 20%;
   }
   .section3-line-l__franchise {
-    left: 20%;
+    left: 16%;
+  }
+  .section4-title__franchise {
+    opacity: 0;
+    padding-bottom: 201px;
   }
   .section5-top-right__franchise {
     display: none;
@@ -400,12 +408,6 @@
   .section2-container__franchise img {
     width: 199.501px;
   }
-  .section2__franchise {
-    padding-bottom: 240px;
-  }
-  .section2-container-bottom__franchise {
-    margin-top: 60px;
-  }
   .section2-container-bottom__franchise {
     flex-direction: column;
     gap: 40px;
@@ -416,7 +418,8 @@
     height: 276px;
   }
   .section5-container__bankets-second p {
-    max-width: 690px;
+    font-size: 60px;
+    line-height: 68px;
   }
   .section7-container__restoran {
     padding: 0 20px;
@@ -452,7 +455,7 @@
     color: #3f3f3fbb;
     font-style: normal;
     font-weight: 600;
-    line-height: min(322px, 34vw);
+    line-height: 260px;
     letter-spacing: 7.65px;
     text-transform: uppercase;
   }
@@ -463,11 +466,8 @@
     font-size: 18px;
     line-height: 24px; /* 133.333% */
   }
-  .section4-container-block__vacancy ul {
-    width: 50%;
-  }
   .section1__contacts {
-    padding: 120px 0;
+    padding: 222px 0 120px 0 !important;
   }
   .section2__sertificate-mob {
     display: block;
@@ -570,10 +570,10 @@
     font-style: normal;
     font-weight: 600;
     line-height: 24px; /* 133.333% */
-    letter-spacing: 0.18px;
+    letter-spacing: 1px;
   }
   .section3-container-block__bankets img {
-    width: 37%;
+    width: 32%;
   }
   .section4__bankets-container {
     padding-top: 0;
@@ -601,7 +601,8 @@
     width: 50%;
   }
   .section7-container__secret-assistants {
-    max-width: 650px;
+    max-width: 690px;
+    height: 1172px;
   }
   .section6-content__loyalty-program {
     gap: 80px 20px;
@@ -635,8 +636,8 @@
 
   .section4-kamen3__bankets {
     width: 157px;
-    right: 110px;
-    bottom: 172px;
+    right: 62px;
+    bottom: 146px;
     top: auto;
   }
   .section4__bankets {
@@ -722,7 +723,7 @@
   }
   .section3-text__secret-assistants,
   .section5-text__rent-hookahs {
-    padding-top: 150px;
+    padding-top: 200px;
     font-size: 40px;
     line-height: 48px; /* 120% */
     max-width: 690px;
@@ -987,7 +988,6 @@
   }
 
   .section-last-bottom__main {
-    padding-top: 270px;
     justify-content: center;
   }
 
@@ -1054,9 +1054,7 @@
   .section4-title__restoran1 {
     display: none;
   }
-  .section2__contacts {
-    padding-bottom: 47px;
-  }
+
   .section2-block__contacts button {
     font-size: 14px;
   }
@@ -1110,11 +1108,28 @@
   }
 
   .section2-img1__looking-premises {
-    top: 280px;
+    top: 390px;
+    left: 1px;
+    width: 21.8%;
+    transform: rotate(359deg);
   }
-
+  .looking-premises-page__block3-container {
+    padding: 222px 20px !important;
+  }
+  .looking-premises-page__form {
+    height: 1230px !important;
+  }
+  .looking-premises-page__form-wrapper {
+    height: 1230px !important;
+    padding: 0px 10px 120px 10px !important;
+  }
+  .looking-premises-page__img > img {
+    width: 100%;
+    height: 100%;
+  }
   .section2-img2__looking-premises {
-    top: 320px;
+    top: 476px;
+    right: 5%;
   }
   .section6-content-block__loyalty-program p {
     font-size: 18px;
@@ -1143,14 +1158,147 @@
     padding: 0 20px;
     max-width: 95%;
   }
+  .section1-img__main3 {
+    top: 14%;
+    right: 6%;
+  }
+  .section7-container__secret-assistants p {
+    font-size: 40px !important;
+    line-height: 44px !important;
+    max-width: 530px;
+  }
+  .looking-premises-page__form-wrapper {
+    gap: 71px;
+  }
+  .section1-img__main4 {
+    top: 81%;
+  }
+  .section4-line2__catering {
+    left: 36%;
+  }
+  .section4-line1__catering {
+    left: 9%;
+  }
   .section6-line3__restoran {
     display: none;
+  }
+  .footer-container-left-colum {
+    gap: 5px;
+  }
+  .section4-container-block__bankets {
+    padding: 2.5% 0;
+  }
+  .universal__page {
+    height: 672px;
+  }
+  .universal__page > p {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+  .section3-container-block__franchise {
+    width: 816px;
+    height: 560px;
+  }
+  .section3__franchise {
+    padding-bottom: 116px;
+  }
+  .looking-premises-page__caption > h1 {
+    font-size: 40px !important;
+    line-height: 48px;
+  }
+  .looking-premises-page__block1 {
+    padding-top: 210px;
+    padding-bottom: 250px !important;
+  }
+  .looking-premises-page__img {
+    width: 482px !important;
+    height: 606px !important;
+  }
+  .vacancy__page-form {
+    gap: 137px;
+    height: 1211px;
+  }
+  .vacancy__page-form > p {
+    font-size: 40px !important;
+    line-height: 48px !important;
+    padding-top: 139px !important;
+  }
+  .section-last-bottom__main {
+    padding-top: 218px;
+  }
+  .section-last-p__main {
+    padding-bottom: 48px;
   }
   .section6-line4__restoran {
     right: 35%;
   }
   .section6-line2__restoran {
     left: 35%;
+  }
+  .section3-container-block__bankets img {
+    height: 200px;
+  }
+  .section3-container-block__bankets {
+    padding: 82px 0;
+  }
+  body .galleryAnim .galleryAnim__slide {
+    padding-bottom: 45.5%;
+  }
+  .section5-container__bankets-second {
+    padding-top: 18%;
+    padding-bottom: 9%;
+  }
+  .career__page-container_h1 {
+    padding: 234px 0 334px 0 !important;
+  }
+  .career__page-container-h1 {
+    padding: 229px 0 244px 0 !important;
+  }
+  p.career__page-container-form {
+    font-size: 40px !important;
+    line-height: 48px !important;
+  }
+  .career__page-container-h2 > p {
+    max-width: 790px;
+  }
+  .career__page-form {
+    height: 1211px;
+  }
+  .career__page-form-files {
+    gap: 65px;
+  }
+  .career__page-container_h1 > p {
+    max-width: 490px;
+  }
+  .career__page-h1 > h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .career__page-wrapper {
+    padding-top: 220px !important;
+    padding-bottom: 247px !important;
+  }
+  .career__page-h1_img {
+    width: 484px !important;
+    height: 606px !important;
+  }
+  .career__page-h1_img > img {
+    width: 100%;
+    height: 100%;
+  }
+  .career__page-img {
+    width: 34% !important;
+  }
+  .section4__bankets {
+    padding-bottom: 240px;
+  }
+  .section5__bankets {
+    padding-bottom: 15%;
+  }
+  .section-last-p__main {
+    letter-spacing: -1px;
+    padding-bottom: 23px;
+    padding-top: 47px;
   }
   .section2-block__contacts button {
     width: 152px;
@@ -1172,15 +1320,40 @@
   .franchise__container {
     max-width: 690px;
     padding: 0 100px;
+    height: 995px;
+  }
+  .franchise-page-form {
+    height: 1265px;
+    padding: 150px 20px 120px 20px !important;
+  }
+  .franchise-page__block-open {
+    padding: 197px 0 235px 0 !important;
+  }
+  .franchise-page-container__openBlock {
+    height: 848px;
+  }
+  .franchise-page-caption__p > p {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .franchise-page__block-open > p {
+    max-width: 530px;
+  }
+  .franchise-page__img {
+    width: 233px !important;
+    height: 300px;
   }
   .section4-kamen1__bankets {
-    left: 5%;
-    width: 9.5%;
+    left: 2%;
+    width: 10%;
     bottom: 38%;
   }
   .section4-kamen2__bankets {
     top: 6%;
-    width: 20.6%;
+    width: 22%;
+  }
+  .bankets-page__caption {
+    display: block;
   }
   .franchise__items {
     margin-bottom: 24px;
@@ -1241,11 +1414,15 @@
     height: 640px;
   }
   .section4-container__franchise {
-    padding-bottom: 240px;
+    padding-bottom: 200px;
   }
   .section-last-img__main {
-    right: 3%;
-    top: 50%;
+    right: 4%;
+    top: 67%;
+    width: 244px;
+  }
+  .section4__catering {
+    padding-bottom: 240px !important;
   }
   .section4-container__franchise button {
     margin-bottom: 40px;
@@ -1255,6 +1432,20 @@
   }
   .mySwiper-bt {
     margin-top: 27%;
+  }
+  .section7-inputs__secret-assistants {
+    gap: 57px 20px;
+    max-width: 650px;
+  }
+  .section1__restoran {
+    padding-top: 120px;
+  }
+  .franchise-page-caption > h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .section1__franchise {
+    padding-bottom: 227px;
   }
 }
 @media (max-width: 935px) {
@@ -1292,6 +1483,11 @@
   }
   .secret-assistants_h {
     height: 600px !important;
+  }
+  .section1-p__main {
+    font-size: 32px !important;
+    line-height: 32px !important;
+    letter-spacing: -2px;
   }
   .section7-container-block__catering:nth-child(2) {
     border-top: none;
@@ -1564,7 +1760,11 @@
   }
   .section1-container-img__secret-assistants {
     width: 271px !important;
-    height: 346px;
+    height: 370px !important;
+  }
+  section.bankets-page__wrapper {
+    padding-top: 166px !important;
+    padding-bottom: 6% !important;
   }
   .section4-container__franchise a {
     font-size: 12px;
@@ -2118,7 +2318,6 @@
   .section1-p__main {
     padding-top: 45px;
   }
-  .section1-p__main,
   .section3-text__secret-assistants,
   .section5-text__rent-hookahs,
   .section4-p__secret-assistants {
@@ -2379,14 +2578,23 @@
 @media (max-width: 475px) {
   .section4-kamen1__bankets {
     left: 4%;
+    bottom: 52%;
   }
-
+  div.bankets-page__imgResize {
+    padding: 75px 0 !important;
+  }
+  .section4__bankets {
+    padding: 65px 0 !important;
+  }
+  .section3-text__secret-assistants {
+    margin-bottom: 0;
+  }
   .section4-kamen2__bankets {
     top: 3%;
   }
 
   .section4-kamen3__bankets {
-    bottom: 5% !important;
+    bottom: 4% !important;
   }
   .section1-img__main2 {
     left: 13%;
@@ -2534,17 +2742,16 @@
   .section1__restoran {
     margin-right: 0;
     padding: 15px;
-    padding-bottom: 16px;
   }
   .section1__restoran-mob {
     display: block;
     margin-top: 50px;
   }
   .section4-line2__catering {
-    left: 50px;
+    left: 70px !important;
   }
   .section4-line3__catering {
-    right: 50px;
+    right: 70px !important;
   }
   .section3-container-block__secret-assistants2 {
     width: 73%;
@@ -2558,6 +2765,12 @@
   }
   .section3-container-block__bankets:nth-child(4) {
     border-bottom: 1px solid #454545;
+  }
+  .section4__catering {
+    padding-bottom: 90px !important;
+  }
+  .galleryAnim::before {
+    max-width: 345px;
   }
 }
 @media (max-width: 405px) {
@@ -2598,12 +2811,12 @@
 
 @media (max-width: 375px) {
   .section1-img__main2 {
-    left: 13%;
-    bottom: 19%;
+    left: 4%;
+    bottom: 24%;
   }
   .section1-img__main3 {
-    right: 10%;
-    top: 7%;
+    right: 3%;
+    top: 1%;
   }
 }
 @media (max-width: 355px) {
@@ -2613,10 +2826,6 @@
 }
 
 @media (max-width: 1150px) {
-  .section7-container__secret-assistants p {
-    font-size: 40px !important;
-    line-height: 48px !important; /* 120% */
-  }
   .section10-container-block__catering {
     border-top: 1px solid #454545;
   }
@@ -2699,8 +2908,8 @@
   }
   .section6-container-block-top-right__career {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 17px;
+    right: 33px;
     opacity: 1;
   }
 
@@ -2724,10 +2933,10 @@
     transform: rotate(354deg);
   }
   .section2__franchise {
-    padding-bottom: 240px;
+    padding-bottom: 192px;
   }
   .section2-container-bottom__franchise {
-    margin-top: 60px;
+    margin-top: 114px;
   }
   .section2-container-bottom__franchise {
     flex-direction: column;
@@ -2737,9 +2946,6 @@
   .section7-container-img__restoran {
     width: 201px;
     height: 276px;
-  }
-  .section5-container__bankets-second p {
-    max-width: 690px;
   }
   .section7-container__restoran {
     padding: 0 20px;
@@ -2779,7 +2985,7 @@
     line-height: 24px; /* 133.333% */
   }
   .section4-container-block__vacancy ul {
-    width: 50%;
+    width: 46%;
   }
   .section1__contacts {
     padding: 120px 0;
@@ -2875,16 +3081,6 @@
   .section3-container__looking-premises {
     max-width: 690px;
   }
-  .section3-container-block__bankets span {
-    display: block;
-    text-align: center;
-    font-family: Futura PT;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 133.333% */
-    letter-spacing: 0.18px;
-  }
   .section3-container-block__bankets img {
     width: 37%;
   }
@@ -2912,9 +3108,6 @@
   }
   .section4-container-block__bankets {
     width: 50%;
-  }
-  .section7-container__secret-assistants {
-    max-width: 650px;
   }
   .section6-content__loyalty-program {
     gap: 80px 20px;
@@ -2951,12 +3144,6 @@
   .section4__secret-assistants {
     padding-top: 220px;
   }
-  .section4-kamen3__bankets {
-    width: 157px;
-    right: 110px;
-    bottom: 172px;
-    top: auto;
-  }
   .section4__bankets {
     margin-top: 0;
     padding-top: 230px;
@@ -2983,13 +3170,10 @@
     width: 124px;
     font-size: 14px;
   }
-  .footer-container {
-    padding-bottom: 120px;
-  }
   .footer-container-right,
   .footer-bottom-left,
   .footer-bottom-right {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 12px;
   }
   .footer-bottom-left {
@@ -3180,7 +3364,7 @@
     font-size: 24px;
   }
   .section2__looking-premises {
-    padding: 120px 0;
+    padding: 240px 0 181px 0;
   }
   .section2-title__loyalty-program {
     padding-bottom: 196px;
@@ -3206,7 +3390,10 @@
     line-height: 24px; /* 133.333% */
   }
   .section3-container__looking-premises {
-    padding: 220px 20px;
+    padding: 174px 20px;
+  }
+  .bankets-page__imgResize {
+    padding: 227px 20px !important;
   }
   .section1__news {
     padding-bottom: 120px;
@@ -3274,7 +3461,6 @@
   }
 
   .section-last-bottom__main {
-    padding-top: 270px;
     justify-content: center;
   }
 
@@ -3335,7 +3521,7 @@
     display: none;
   }
   .section2__contacts {
-    padding-bottom: 47px;
+    padding-bottom: 29px;
   }
   .section2-block__contacts button {
     font-size: 14px;
@@ -3409,16 +3595,40 @@
     height: 38px;
     margin-bottom: 49px;
   }
-  /* .section1-container-img__secret-assistants{
-        width: 523px;
-        height: 640px;
-    } */
-  .section4-container__franchise {
-    padding-bottom: 240px;
+  .franchise-page__desc {
+    height: 952px;
+    max-width: 690px;
+  }
+  .franchise-page__desc > p {
+    max-width: 630px;
+    font-size: 40px !important;
+    line-height: 48px;
+  }
+  .section6__franchise {
+    padding: 87px 0;
+  }
+  .section6-container__franchise {
+    gap: 15px;
   }
 
   .section2-container__franchise img {
-    top: -32%;
+    top: -48%;
+  }
+  .bankets__h1 > div {
+    width: 569px;
+    height: 737px;
+  }
+  .bankets__h1 > h1 {
+    max-width: 430px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .bankets-page__wrapper {
+    padding-top: 220px !important;
+    padding-bottom: 14% !important;
+  }
+  .bankets__point {
+    height: 220px;
   }
 }
 @media (max-width: 900px) {
@@ -4174,7 +4384,6 @@
   .section1-p__main {
     padding-top: 45px;
   }
-  .section1-p__main,
   .section3-text__secret-assistants,
   .section5-text__rent-hookahs,
   .section4-p__secret-assistants {
@@ -4409,7 +4618,6 @@
   }
 }
 
-
 @media (max-width: 475px) {
   .panel-blocks-form__rent-hookahs input,
   .panel-blocks-form__rent-hookahs select {
@@ -4460,13 +4668,13 @@
   .franchise__container {
     border: none;
 
-    height: 538px;
+    height: 450px;
     width: 375px;
     justify-content: flex-end;
     padding-bottom: 80px;
   }
   .franchise__items {
-    top: 25%;
+    top: 37%;
   }
   .franchise__caption {
     padding: 8px 0 0 20px;
@@ -4486,7 +4694,7 @@
     padding-bottom: 40px;
   }
   .franchise__items p {
-    font-size: 28px;
+    font-size: 32px;
     line-height: 32px; /* 114.286% */
   }
   .franchise__items span {
@@ -4508,7 +4716,7 @@
     line-height: 32px;
   }
   .franchise__sz {
-    height: 600px;
+    height: 558px;
   }
   .section5-top-right-block__franchise {
     font-size: 12px;
@@ -4559,7 +4767,8 @@
     padding-top: 83px;
   }
   .section2__contacts {
-    padding-bottom: 105px;
+    padding-bottom: 89px;
+    padding-top: 4px;
   }
   .section4-container-block__vacancy ul li {
     line-height: 16px;
@@ -4668,22 +4877,31 @@
   .section1__restoran {
     margin-right: 0;
     padding: 0 15px;
-    padding-bottom: 16px;
   }
   .section1__restoran-mob {
     display: block;
-  }
-  .section4-line2__catering {
-    left: 50px;
-  }
-  .section4-line3__catering {
-    right: 50px;
   }
   .section3-container-block__secret-assistants2 {
     width: 73% !important;
   }
   .section3-container-block__bankets img {
-    width: 46%;
+    width: 36% !important;
+    height: 170px !important;
+  }
+  .section5-container-block__bankets-main {
+    width: 68%;
+  }
+  .section2-container__bankets {
+    padding-bottom: 95px;
+  }
+  .section3-container-block__bankets {
+    padding: 37px 0 9px 0;
+  }
+  .section3-container-block__bankets:nth-child(2) {
+    padding: 39px 0 52px 0;
+  }
+  .section3-container-block__bankets:nth-child(4) {
+    padding: 39px 0 52px 0;
   }
   .input-tel__secret-assistants,
   .input-city__secret-assistants {
@@ -4726,7 +4944,7 @@
   }
   .section3-text__secret-assistants,
   .section5-text__rent-hookahs {
-    padding-top: 160px;
+    padding-top: 66px;
   }
   .section5-text__rent-hookahs {
     padding-top: 120px;
@@ -4745,7 +4963,8 @@
     max-width: 316px;
   }
   .secret-assistants-text {
-    width: 316px;
+    width: 335px;
+    letter-spacing: -2px;
   }
   .news__header {
     border-bottom: 1px solid #454545;
@@ -4775,6 +4994,10 @@
   }
   .footer-reverse {
     flex-direction: column-reverse;
+  }
+  .footer-reverse > a {
+    font-size: 12px;
+    line-height: 16px;
   }
   .section4__banketss {
     font-size: 32px !important;
@@ -4836,6 +5059,238 @@
   .mySwiper-bt-one {
     margin-top: 44%;
   }
+  .galleryAnim.__hidden {
+    padding-bottom: 68px;
+  }
+  body .galleryAnim .galleryAnim__slide {
+    padding-bottom: 68%;
+  }
+  .galleryAnim__title {
+    letter-spacing: 2px;
+    top: -48px;
+  }
+  .section-last-bottom__main {
+    padding-top: 128px;
+  }
+  .section-last-p__main {
+    padding-top: 12px;
+  }
+  .footer-container-left {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-container-right {
+    flex-direction: column;
+  }
+  .footer-bottom {
+    flex-direction: column-reverse;
+  }
+  .ds-none {
+    display: none;
+  }
+  .bankets-page__caption {
+    display: none;
+  }
+  .bankets__point {
+    padding: 82px 20px;
+    height: 0;
+  }
+  .section5__bankets {
+    padding-bottom: 11%;
+  }
+  .bankets__point > p {
+    padding: 0;
+    letter-spacing: 2px;
+  }
+  .section7-inputs__secret-assistants {
+    margin-top: 47px;
+  }
+  .footer-mb {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "FuturaPT", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: left;
+  }
+  .career__page-h1_img {
+    width: 242px !important;
+    height: 313px !important;
+  }
+  .career__page-wrapper {
+    padding-top: 171px !important;
+    padding-bottom: 78px !important;
+  }
+  .section2-text__career {
+    padding-bottom: 42px;
+  }
+  .career__page-container_h1 {
+    padding: 79px 0 98px 0 !important;
+  }
+  .section4-container-block-part__careeer {
+    height: 160px;
+  }
+  .section6-container-block-top-right__career {
+    top: 23px;
+    right: 16px;
+  }
+  .career__page-form {
+    padding: 70px 15px !important;
+  }
+  .career__page-form > p {
+    letter-spacing: -2px !important;
+    margin-top: 85px;
+  }
+  .career__page-form-files {
+    gap: 32px;
+  }
+  .section1__contacts {
+    padding: 173px 0 73px 0 !important;
+  }
+  .section2-block__contacts {
+    gap: 0;
+  }
+  .universal__page > p {
+    font-size: 28px !important;
+    line-height: 32px !important;
+  }
+  .universal__page {
+    padding: 83px 0 112px 0;
+  }
+  .section4-container-block__vacancy ul {
+    padding-left: 15px;
+    width: 83%;
+  }
+  .vacancy__page-form > p {
+    padding-top: 78px !important;
+  }
+  .vacancy__page-form {
+    gap: 20px;
+  }
+  .career__page-container-form-city {
+    padding: 0 0 66px 0 !important;
+    gap: 31px;
+  }
+  .career__page-container-form-city > p {
+    margin-top: 81px !important;
+  }
+  .section1__restoran-laptop p {
+    font-size: 100px;
+    line-height: 100px;
+    color: #dfdfdf;
+  }
+  .section1__restoran-laptop {
+    padding-top: 19%;
+  }
+  .section1-title__franchise {
+    padding-bottom: 77px;
+  }
+  .section1__franchise {
+    padding-bottom: 40px;
+  }
+  .section2-container__franchise {
+    margin-top: 67px !important;
+  }
+  .section2-container__franchise img {
+    width: 115px;
+    top: -38%;
+  }
+  .section2-container-bottom__franchise {
+    margin-top: 50px !important;
+  }
+  .section2__franchise {
+    padding-bottom: 65px;
+  }
+  .section3-container-block__franchise {
+    width: 255px !important;
+    height: 165px;
+  }
+  .section3__franchise {
+    padding: 80px 0 68px 0;
+  }
+  .section4-container__franchise {
+    padding-bottom: 38px;
+  }
+  .section4-container__franchise button {
+    margin-bottom: 72px !important;
+    width: 192px;
+    height: 36px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .section3-line-r__franchise {
+    right: 24%;
+  }
+  .section3-line-l__franchise {
+    left: 24%;
+  }
+  .section5-top-left__franchise {
+    font-size: 12px;
+    list-style: 16px;
+  }
+  .franchise-page__desc > p {
+    font-size: 32px !important;
+    line-height: 32px !important;
+    letter-spacing: -2px !important;
+  }
+  .section3__slider-top {
+    padding: 22px 36px;
+  }
+  .franchise-page__img {
+    width: 128px;
+    height: 165px;
+  }
+  .franchise-page__block-open {
+    padding: 79px 0 82px 0 !important;
+  }
+  .franchise__imgGal25 {
+    width: 128px;
+    height: 165px;
+  }
+  .section-map__franchise {
+    height: 520px;
+  }
+  .franchise-page-form {
+    width: 100%;
+    padding: 70px 20px 76px 20px !important;
+  }
+  .franchise-page-form > div {
+    margin-top: 20px;
+  }
+  .looking-premises-page__block1 {
+    padding-top: 170px !important;
+    padding-bottom: 85px !important;
+  }
+  .looking-premises-page__img {
+    width: 241px !important;
+    height: 313px !important;
+  }
+  .looking-premises-page__caption > h1 {
+    font-size: 32px !important;
+    line-height: 32px !important;
+  }
+  .looking-premises-page__block3-container {
+    padding: 90px 20px !important;
+  }
+  .section2__looking-premises {
+    padding: 71px 0;
+  }
+  .looking-premisesL {
+    left: 92px !important;
+  }
+  .looking-premisesR {
+    right: 92px !important;
+  }
+  .looking-premises-page__form {
+    height: 906px !important;
+  }
+  .looking-premises-page__form-wrapper {
+    gap: 21px;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 405px) {
@@ -4847,7 +5302,7 @@
   }
   .section5-container__bankets-second p {
     max-width: 345px;
-    padding-top: 30px;
+    padding-top: 17px;
   }
   .section4-kamen3__bankets {
     right: 90px;
@@ -4869,7 +5324,6 @@
   }
   .section-last-p__main {
     width: 340px;
-    font-size: 30px !important;
   }
   .section3-container__franchise p {
     width: 255px;
@@ -4878,17 +5332,8 @@
     width: 100%;
   }
 
-  .section3-line-r__franchise {
-    right: 27%;
-  }
-  .section3-line-l__franchise {
-    left: 27%;
-  }
   .section3-container-block__franchise {
     width: 68%;
-  }
-  .section4-container__franchise button {
-    margin-bottom: 46px;
   }
 
   .section2-container__franchise {
