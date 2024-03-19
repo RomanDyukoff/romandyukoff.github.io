@@ -41,9 +41,9 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     text-align: center;
-    max-width: 610px;
+    max-width: 516px;
     opacity: 1;
     transition: 0.3s;
   }

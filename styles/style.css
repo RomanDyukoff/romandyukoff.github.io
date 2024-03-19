@@ -28,7 +28,13 @@
   font-style: normal;
   font-weight: normal;
 }
-
+@font-face {
+  font-family: "FuturaBookC";
+  font-family: "FuturaPTLigth", sans-serif;
+  src: url("../fonts/FuturaBookC.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
 @font-face {
   font-family: "FuturaPTBoldObl";
   src: url("../fonts/FuturaPTBoldObl.eot");
@@ -376,6 +382,12 @@ header {
   display: block;
   border-bottom: 1px solid #454545;
   position: relative;
+  font-family: "FuturaBookC", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
 }
 .dropdown-content-icon::before {
   content: "";
@@ -435,7 +447,8 @@ header {
   color: #dfdfdf;
   font-size: 16px;
   font-style: normal;
-  font-weight: 450;
+  font-family: "FuturaPT", sans-serif;
+  font-weight: 600;
   line-height: 20px; /* 125% */
   letter-spacing: 0.48px;
   text-transform: uppercase;
@@ -551,7 +564,8 @@ footer {
   color: #dfdfdf;
   font-size: 16px;
   font-style: normal;
-  font-weight: 450;
+  font-family: "FuturaPT", sans-serif;
+  font-weight: 600;
   line-height: 20px; /* 125% */
   letter-spacing: 0.48px;
   text-transform: uppercase;
@@ -615,6 +629,9 @@ footer {
   letter-spacing: 0.03em;
   text-align: center;
   border-radius: 20px;
+}
+.active__lang {
+  border-bottom: 1px solid #454545;
 }
 .burger__footer-lang {
   display: flex;
@@ -1066,11 +1083,10 @@ footer {
 .footer-container-left {
   display: flex;
   gap: 68px;
-
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 26px;
   letter-spacing: 0.2px;
 }
@@ -1271,6 +1287,7 @@ footer {
 .franchise__caption {
   position: absolute;
   left: 0;
+  text-transform: uppercase;
   padding: 20px;
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
@@ -1357,7 +1374,7 @@ footer {
   display: flex;
   flex-direction: column;
   position: relative;
-  gap: 18px;
+  gap: 44px;
   height: 280px;
   padding: 20px;
   border-bottom: 1px solid #454545;
@@ -1388,12 +1405,7 @@ footer {
   font-size: 20px;
   line-height: 26px;
 }
-.section4-container-block__looking-premises2 {
-  gap: 70px;
-}
-.section4-container-block__looking-premises5 {
-  gap: 44px;
-}
+
 .section7-container__secret-assistants {
   display: flex;
   align-items: center;
@@ -2680,13 +2692,13 @@ p.section3-content-p__loyalty-program {
 }
 
 .section4-container-block-part__careeer > p {
-  max-width: 297px;
+  max-width: 311px;
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 26px; /* 130% */
-  letter-spacing: 0.2px;
+  letter-spacing: 1px;
 }
 .section4-container-block__careeer {
   display: flex;
@@ -2895,7 +2907,7 @@ p.section3-content-p__loyalty-program {
   position: absolute;
   left: 13.5%;
   top: 63%;
-  z-index: 999;
+  z-index: 9999999999;
 }
 .section3__catering {
   position: relative;
@@ -2905,7 +2917,7 @@ p.section3-content-p__loyalty-program {
   position: absolute;
   right: 23px;
   top: 400px;
-  z-index: 999;
+  z-index: 9999999999;
   width: 10%;
 }
 .section3-parent__catering {
@@ -3201,7 +3213,7 @@ p.section3-content-p__loyalty-program {
   font-family: "FuturaPT", sans-serif;
   font-size: 16px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 20px; /* 125% */
   letter-spacing: 0.48px;
   border-radius: 20px;
@@ -4755,11 +4767,11 @@ body .galleryAnim .galleryAnim__fraction {
   color: #dfdfdf;
   text-align: center;
   font-family: "FuturaPT", sans-serif;
-  font-size: 1.7em;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 120%;
-  letter-spacing: -0.48px;
+  line-height: 26px;
+  letter-spacing: 1px;
   transition: all 1.6s ease 0s;
   opacity: 0;
   visibility: hidden;
@@ -5145,7 +5157,7 @@ body .galleryAnim .galleryAnim__fraction {
   text-align: center;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 400;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -5302,10 +5314,11 @@ body .galleryAnim .galleryAnim__fraction {
   font-style: normal;
   padding-top: 20px;
   text-align: left;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 26px;
   letter-spacing: 0.2px;
 }
+
 .section1-p__main {
   font-size: min(84px, 4.4vw);
   font-style: normal;
@@ -5475,7 +5488,7 @@ body .galleryAnim .galleryAnim__fraction {
 }
 .section-map-content-block-into__franchise p {
   text-align: center;
-  font-family: Futura PT, sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -5485,6 +5498,7 @@ body .galleryAnim .galleryAnim__fraction {
 .section-map-content-block-into__franchise span {
   text-align: center;
   font-size: 40px;
+  font-family: "FuturaPT", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 48px; /* 120% */
@@ -5511,8 +5525,6 @@ body .galleryAnim .galleryAnim__fraction {
   letter-spacing: 0.2px;
 }
 .section-map__franchise {
-  padding-top: 20px;
-  padding-bottom: 20px;
   border-bottom: 1px solid #454545;
 }
 .section-map-content-block__franchise {
@@ -5572,7 +5584,9 @@ body .galleryAnim .galleryAnim__fraction {
   flex-direction: column;
   gap: 85vh;
 }
-
+header.header-active-bg {
+  background: #0d0d0d !important;
+}
 .section-map-content__franchise-mob {
   display: none;
 }
@@ -5689,6 +5703,9 @@ header {
 }
 .panel-block2-top__rent-hookahs img {
   object-fit: cover;
+}
+.stories-slider-content > img {
+  object-fit: fill !important;
 }
 .panel-block2-top__rent-hookahs p {
   text-align: center;
@@ -6418,6 +6435,7 @@ header {
   position: absolute;
   right: 5%;
   border: 1px solid #454545;
+  background: #0d0d0d;
   padding: 30px;
   border-radius: 10px 0 10px 10px;
 }

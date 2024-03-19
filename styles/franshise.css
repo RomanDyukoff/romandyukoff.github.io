@@ -46,9 +46,25 @@
   font-size: 60px;
   line-height: 60px;
 }
+.franchise-page-pl {
+  padding-left: 20px;
+}
+@media (max-width: 1805px) {
+  .section2-container__franchise > img {
+    top: -67%;
+  }
+}
+@media (max-width: 1355px) {
+  .section2-container__franchise > img {
+    top: -91%;
+  }
+}
 @media (max-width: 1151px) {
   .franchise-page-slider {
     display: none;
+  }
+  .section2-container__franchise > img {
+    top: -46% !important;
   }
 }
 @media (max-width: 1150px) {

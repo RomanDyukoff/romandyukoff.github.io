@@ -162,7 +162,9 @@
     padding: 19px 20px;
     height: 220px;
   }
-
+  .franchise-page-pl {
+    padding-left: 0;
+  }
   .section4-container-block-part__careeer:nth-child(odd) {
     border-bottom: 1px solid #454545;
   }
@@ -589,8 +591,9 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
+    max-width: 399px;
     line-height: 24px; /* 133.333% */
-    letter-spacing: 1px;
+    letter-spacing: 0px;
   }
   .section3-container-block__bankets img {
     width: 32%;
@@ -723,9 +726,7 @@
     padding-top: 240px;
     padding-bottom: 320px;
   }
-  .section3-container-block__secret-assistants2 {
-    width: 28% !important;
-  }
+
   .section3-container-block__secret-assistants2-none {
     display: none;
   }
@@ -1042,7 +1043,9 @@
     justify-content: center;
     height: 80px;
   }
-
+  .section3-content-container-block__loyalty-program p {
+    max-width: 100%;
+  }
   .section1-container-block__news {
     width: 48%;
   }
@@ -1122,6 +1125,7 @@
   }
   .section6-container-block__franchise {
     align-items: center;
+    gap: 0;
   }
 
   .section2-img1__looking-premises {
@@ -1202,6 +1206,10 @@
   .footer-container-left-colum {
     gap: 5px;
   }
+  .footer-container-left-colum a {
+    font-size: 18px;
+    line-height: 24px;
+  }
   .section4-container-block__bankets {
     padding: 2.5% 0;
   }
@@ -1274,6 +1282,8 @@
   p.career__page-container-form {
     font-size: 40px !important;
     line-height: 48px !important;
+    max-width: 100% !important;
+    letter-spacing: 0 !important;
   }
   .career__page-container-h2 > p {
     max-width: 790px;
@@ -1375,7 +1385,7 @@
   .franchise__items {
     margin-bottom: 24px;
     position: absolute;
-    top: 20%;
+    top: 18%;
   }
   .section2-container__secret-assistants {
     height: 668px;
@@ -2527,6 +2537,7 @@
   }
   .section2-text__career {
     padding-bottom: 60px;
+    letter-spacing: 0 !important;
   }
   .section2-title__career {
     padding-bottom: 98px;
@@ -2872,6 +2883,8 @@
   }
   .section3-container-block__bankets span {
     font-size: 12px;
+    line-height: 16px;
+    padding: 0 15px;
   }
   .section1-img__main2 {
     left: 9%;
@@ -3672,11 +3685,11 @@
     padding: 87px 0;
   }
   .section6-container__franchise {
-    gap: 15px;
+    gap: 40px;
   }
 
   .section2-container__franchise img {
-    top: -48%;
+    top: -48% !important;
   }
   .bankets__h1 > div {
     width: 569px;
@@ -3712,7 +3725,7 @@
     display: block;
   }
   .section2-container__franchise img {
-    top: -32%;
+    top: -32% !important;
   }
   /*big title 84px*/
   .section6-title__restoran,
@@ -4733,7 +4746,6 @@
     border: none;
 
     height: 450px;
-    width: 375px;
     justify-content: flex-end;
     padding-bottom: 80px;
   }
@@ -4846,6 +4858,7 @@
 
   .section3-container-block__bankets p {
     padding-top: 4px;
+    font-size: 28px;
   }
   .section4-kamen1__secret-assistants {
     left: 0;
@@ -5083,6 +5096,7 @@
   }
   .bankets__fs {
     margin-bottom: 0 !important;
+    letter-spacing: 0 !important;
   }
   .bankets__h1 > h1 {
     max-width: 290px;
@@ -5178,7 +5192,7 @@
   }
   .bankets__point > p {
     padding: 0;
-    letter-spacing: 2px;
+    letter-spacing: -1px;
   }
   .section7-inputs__secret-assistants {
     margin-top: 47px;
@@ -5277,7 +5291,7 @@
   }
   .section2-container__franchise img {
     width: 115px;
-    top: -38%;
+    top: -31% !important;
   }
   .section2-container-bottom__franchise {
     margin-top: 50px !important;
@@ -5447,7 +5461,6 @@
 
   .burger__dropbtn-mob > button {
     font-size: 12px;
-
     line-height: 26px;
   }
   .burger__search > div:first-child {
@@ -5472,6 +5485,10 @@
     font-size: 12px;
 
     line-height: 14px; /* 130% */
+  }
+  .burger__footer > button {
+    max-width: 335px;
+    width: 100%;
   }
 }
 

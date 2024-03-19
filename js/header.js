@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
+  let header = document.querySelector("header");
+  let btnMenuHam = document.querySelector(".menu__btn");
   let btnMenu = document.querySelector(".header-container-right-btn");
   let modalMenu = document.querySelector(".modal-header-book");
   let closeMenu = document.querySelector(".modal-header-book-close");
@@ -9,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ".burger__dropbtn-btn"
   );
   const searchCityMob = window.document.querySelector(".close");
-  const tooltipClose = window.document.querySelector(".tooltip__icon");;
+  const tooltipClose = window.document.querySelector(".tooltip__icon");
   const mapingList = window.document.querySelector(".maping-list");
   const searchCity = window.document.querySelector(".search__city");
   const BurgerMenu = window.document.querySelector(".burger__menu");
@@ -20,11 +22,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const listContCity = [
     ...window.document.querySelectorAll(".dropdown-content"),
   ];
+  const toogleLanguage = [
+    ...document.querySelector(".burger__footer-lang").children,
+  ];
 
   chooseCityMob.innerHTML = chooseCity.innerHTML = "Выбрать город";
   chooseCityMob.parentNode.parentNode.style.background = "#dfdfdf";
   searchCityMob.parentNode.style.display = "none";
 
+  btnMenuHam.addEventListener("click", function () {
+    header.classList.toggle("header-active-bg");
+  });
   btnMenu.addEventListener("click", function () {
     modalMenu.style.opacity = "1";
     modalMenu.style.zIndex = "999999999999999";
@@ -33,7 +41,13 @@ document.addEventListener("DOMContentLoaded", () => {
     modalMenu.style.opacity = "0";
     modalMenu.style.zIndex = "-1";
   });
-
+  toogleLanguage[0].classList.add("active__lang");
+  toogleLanguage.forEach((el, i) => {
+    el.addEventListener("click", () => {
+      toogleLanguage.forEach((b) => b.classList.remove("active__lang"));
+      el.classList.add("active__lang");
+    });
+  });
   document.querySelector("#menu__toggle").addEventListener("change", () => {
     window.scrollTo(0, 0);
     document.body.style.overflow = document.querySelector("#menu__toggle")
@@ -202,6 +216,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
   tooltipClose.addEventListener("click", () => {
-    tooltipClose.parentNode.classList.toggle("tooltip__hidden")
-  })
+    tooltipClose.parentNode.classList.toggle("tooltip__hidden");
+  });
 });

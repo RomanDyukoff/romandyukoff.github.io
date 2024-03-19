@@ -394,6 +394,7 @@ button.controller-form {
   }
   .panel-block2-top__rent-hookahs img {
     width: 38%;
+    object-fit: contain !important;
   }
 }
 @media (max-width: 950px) {
@@ -462,4 +463,3 @@ button.controller-form {
     line-height: 32px;
   }
 }
-
