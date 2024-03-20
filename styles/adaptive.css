@@ -2027,6 +2027,7 @@
   .mySwipersertificate-block {
     padding-bottom: 130px;
   }
+  .section2-container__sertificate-mob,
   .section2-container__sertificate p {
     font-size: 32px;
     line-height: 32px; /* 100% */
@@ -4106,6 +4107,7 @@
   .mySwipersertificate-block {
     padding-bottom: 130px;
   }
+  .section2-container__sertificate-mob,
   .section2-container__sertificate p {
     font-size: 32px;
     line-height: 32px; /* 100% */
@@ -4779,6 +4781,7 @@
   }
   .franchise-page__container-title {
     height: 538px !important;
+    padding: 0 0 80px 0;
   }
   .bankets__point > p {
     font-size: 28px;

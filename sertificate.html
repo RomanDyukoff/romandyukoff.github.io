@@ -345,7 +345,9 @@
                 <li>Усть-Каменогорск</li>
                 <li>Шымкент</li>
               </ul>
-                <ul class="burger__menu-city burger__menu-city-active maping-list"></ul>
+              <ul
+                class="burger__menu-city burger__menu-city-active maping-list"
+              ></ul>
               <div class="burger__footer">
                 <button class="burger__footer-btn">Забронировать</button>
                 <div class="burger__footer-lang">
@@ -511,9 +513,7 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="mySwipersertificate-block">
-                  <div
-                    class="section2-container__sertificate section2-container__sertificate-active"
-                  >
+                  <div class="section2-container__sertificate-mob">
                     <p>
                       Друзьям (описание почему <br />
                       другу примерно такого <br />
@@ -539,12 +539,10 @@
               </div>
               <div class="swiper-slide">
                 <div class="mySwipersertificate-block">
-                  <div
-                    class="section2-container__sertificate section2-container__sertificate-active"
-                  >
+                  <div class="section2-container__sertificate-mob">
                     <p>
-                      Коллегам (описание почему коллегам примерно такого объёма
-                      + ещё одна строчка на всякий случай)
+                      Любимому человеку (описание почему коллегам примерно
+                      такого объёма + ещё одна строчка на всякий случай)
                     </p>
                     <div class="section2-container-block__sertificate">
                       <img
@@ -566,9 +564,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="mySwipersertificate-block">
-                  <div
-                    class="section2-container__sertificate section2-container__sertificate-active"
-                  >
+                  <div class="section2-container__sertificate-mob">
                     <p>
                       Родителям (описание почему родителям примерно такого
                       объёма + ещё одна строчка на всякий случай)
@@ -593,9 +589,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="mySwipersertificate-block">
-                  <div
-                    class="section2-container__sertificate section2-container__sertificate-active"
-                  >
+                  <div class="section2-container__sertificate-mob">
                     <p>
                       Коллегам (описание почему коллегам примерно такого объёма
                       + ещё одна строчка на всякий случай)
@@ -1286,20 +1280,27 @@
         </div>
       </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
     <script>
+      let activeSlide = 0;
+      const title = document.querySelector(".titles");
+      const items = ["Друзьям", "Любимому человеку", "Родителя", "Коллегам"];
+      title.innerHTML = items[0];
       const btn = document.querySelectorAll(
         ".section2-top-right-btn__sertificate"
       );
       const tab = document.querySelectorAll(".section2-container__sertificate");
 
-      btn.forEach(function (item) {
+      btn.forEach(function (item, i) {
         item.addEventListener("click", function () {
           btn.forEach(function (i) {
             i.classList.remove("section2-top-right-btn__sertificate-active");
           });
-
+          activeSlide = i;
           item.classList.add("section2-top-right-btn__sertificate-active");
-
+          title.innerHTML = items[activeSlide];
           let tubID = item.getAttribute("data-tab");
           let tabActive = document.querySelector(tubID);
 
@@ -1309,28 +1310,17 @@
           tabActive.classList.add("section2-container__sertificate-active");
         });
       });
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-      const title = document.querySelector(".titles");
-      const items = [
-        "Друзьям",
-        "Любимому человеку",
-        "Родителя",
-        "Любимому человеку",
-      ];
-
       const addInitText = (text) => {
         title.innerHTML = text || "";
       };
-
       const swiper = new Swiper(".mySwipersertificate", {
+        slidesPerView: "auto",
+        freeMode: false,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+
         on: {
           init: (swiper) => {
             title && addInitText(items[swiper.activeIndex]);

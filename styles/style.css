@@ -2054,6 +2054,7 @@ p.section3-content-p__loyalty-program {
   z-index: 5;
   object-fit: cover;
 }
+.section2-container__sertificate-mob,
 .section2-container__sertificate p {
   font-size: min(60px, 3vw);
   font-style: normal;
@@ -2064,6 +2065,7 @@ p.section3-content-p__loyalty-program {
   text-transform: uppercase;
   max-width: 930px;
 }
+.section2-container__sertificate-mob,
 .section2-container__sertificate {
   display: flex;
   flex-direction: column;
@@ -2071,6 +2073,7 @@ p.section3-content-p__loyalty-program {
   gap: 5px;
   margin-top: 91px;
 }
+
 .section2__sertificate {
   padding-bottom: 13%;
   border-bottom: 1px solid #454545;
