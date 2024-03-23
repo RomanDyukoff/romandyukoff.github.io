@@ -49,6 +49,12 @@
 .franchise-page-pl {
   padding-left: 20px;
 }
+.franchise__caption-main {
+  padding-top: 40px !important;
+}
+.franchise-page-caption__block1 {
+  padding-bottom: 74px;
+}
 @media (max-width: 1805px) {
   .section2-container__franchise > img {
     top: -67%;
@@ -92,6 +98,9 @@
   }
   .franchise-page-swiper-btn__mob {
     width: 32px;
+  }
+  .franchise-page__img {
+    width: 296px !important;
   }
 }
 @media (max-width: 475px) {

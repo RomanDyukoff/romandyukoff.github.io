@@ -9,7 +9,17 @@
 .main-mr {
   margin-right: 15px;
 }
-
+.main-page__caprion {
+  padding-top: 10px;
+}
+.bg-left,
+.pr-t {
+  padding-right: 33%;
+}
+.prb-g,
+.pr-g {
+  padding-left: 20%;
+}
 @media (max-width: 475px) {
   div.page-main__line2 {
     left: 70px !important;
