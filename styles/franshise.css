@@ -15,15 +15,42 @@
   text-align: center;
   font-weight: 400;
   line-height: 48px;
-  letter-spacing: -2px;
+  letter-spacing: 0px;
   text-transform: uppercase;
+}
+.franchise-page__ca {
+  padding-bottom: 255px;
+}
+.franchise-page-container__blockImg {
+  padding-top: 109px;
+}
+.franchise-page-form {
+  padding-top: 26px;
+}
+.franchise-page-caption_fs {
+  margin-bottom: 107px;
+}
+.franchise-page__container-img-f {
+  padding: 20px 20px 16px 20px !important;
+}
+.franchise-page__container-list:first-child {
+  margin-bottom: 23px;
+}
+.franchise-page__container-list > div > p {
+  padding-left: 25px;
+}
+.franchise-page__container-img-btn {
+  font-size: 12px !important;
+  line-height: 14px !important;
+  width: 171px !important;
+  height: 32px !important;
 }
 .franchise-page__desc > p {
   font-size: min(60px, 3.12vw) !important;
   line-height: min(60px, 3.12vw);
 }
 .franchise-page__video {
-  height: 63rem;
+  height: 62rem;
 }
 .franchise-page__block-open {
   padding: 286px 0 281px 0 !important;
@@ -53,7 +80,15 @@
   padding-top: 40px !important;
 }
 .franchise-page-caption__block1 {
-  padding-bottom: 74px;
+  padding-bottom: 57px;
+}
+.franchise-page__blocklast-br p br {
+  display: none;
+}
+@media (min-width: 1240px) {
+  .franchise-page__blocklast-br p br {
+    display: block;
+  }
 }
 @media (max-width: 1805px) {
   .section2-container__franchise > img {

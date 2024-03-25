@@ -248,7 +248,17 @@ input {
   padding-top: 200px;
   padding-bottom: 273px;
 }
-
+.sertificate-page__blocklast-br h1 br {
+  display: none;
+}
+.sertificate-page__slider {
+  padding-bottom: 12%;
+}
+@media (min-width: 1240px) {
+  .sertificate-page__blocklast-br h1 br {
+    display: block;
+  }
+}
 @media (max-width: 1050px) {
   .sertificate__content {
     flex-direction: column;

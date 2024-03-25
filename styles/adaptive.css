@@ -54,10 +54,6 @@
   .section4-container-block-part__careeer {
     gap: 50px;
   }
-  .section1-block__restoran {
-    font-size: 11vw;
-    line-height: 12vw;
-  }
   .section4-kamen1__secret-assistants {
     width: 12%;
     left: 1.4%;
@@ -109,11 +105,6 @@
 
   .section-map-bg__franchise {
     width: 100%;
-  }
-
-  .section1-block__restoran {
-    font-size: 11vw;
-    line-height: 12vw;
   }
 
   .section1-img__main1 {
@@ -476,7 +467,7 @@
     color: #3f3f3fbb;
     font-style: normal;
     font-weight: 600;
-    line-height: 260px;
+    line-height: min(322px, 34vw);
     letter-spacing: 7.65px;
     text-transform: uppercase;
   }

@@ -79,7 +79,7 @@ body {
   position: relative;
   height: auto;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 h1,
 h2,
@@ -1268,7 +1268,6 @@ footer {
   height: 1136px;
 }
 .franchise__items {
-  margin-bottom: 30px;
   text-align: center;
 }
 .franchise__lineL {
@@ -1304,7 +1303,6 @@ footer {
   line-height: 48px; /* 120% */
   letter-spacing: -1px;
   text-transform: uppercase;
-  padding-bottom: 20px;
 }
 .secret-page_lineMobR,
 .secret-page_lineMobL {
@@ -1992,6 +1990,7 @@ p.section3-content-p__loyalty-program {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  gap: 6px;
 }
 .section2-top-left__sertificate {
   font-family: "FuturaPT", sans-serif;
@@ -2146,7 +2145,7 @@ p.section3-content-p__loyalty-program {
   justify-content: center;
 }
 .section3__sertificate {
-  padding-bottom: 14.5%;
+  padding-bottom: 15%;
   position: relative;
   border-bottom: 1px solid #454545;
 }
@@ -3225,8 +3224,8 @@ p.section3-content-p__loyalty-program {
   margin: 0 auto;
   position: relative;
   z-index: 9999;
-  margin-bottom: 90px;
-  margin-top: 40px;
+  margin-bottom: 81px;
+  margin-top: 34px;
   text-transform: uppercase;
 }
 .Imgbg-hidden {
@@ -3410,7 +3409,7 @@ p.section3-content-p__loyalty-program {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  padding-bottom: 82px;
+  padding-bottom: 48px;
   padding-left: 20px;
 }
 .section2-container-text__restoran {
@@ -3540,7 +3539,7 @@ p.section3-content-p__loyalty-program {
 .section6__restoran {
   position: relative;
   overflow: hidden;
-  padding-bottom: 280px;
+  padding-bottom: 271px;
   border-bottom: 1px solid #454545;
 }
 .section6-container-block-text__restoran {
@@ -3679,7 +3678,7 @@ p.section3-content-p__loyalty-program {
   font-style: normal;
   font-weight: 450;
   line-height: 20px;
-  letter-spacing: 0.48px;
+  letter-spacing: -0.52px;
   display: flex;
   width: 160px;
   height: 40px;
@@ -3718,7 +3717,7 @@ p.section3-content-p__loyalty-program {
   font-style: normal;
   margin: 0 auto;
   width: 167px;
-  margin-top: 40px;
+  margin-top: 32px;
   height: 40px;
   border-radius: 32px;
   background: #dfdfdf;
@@ -3744,7 +3743,7 @@ p.section3-content-p__loyalty-program {
   font-weight: 400;
   line-height: 60px; /* 100% */
   letter-spacing: -1.2px;
-  padding: 120px 0;
+  padding: 80px 0;
   text-transform: uppercase;
 }
 .section1-line__restaurant-all {
@@ -3782,6 +3781,7 @@ p.section3-content-p__loyalty-program {
   display: flex;
   flex-direction: column;
   gap: 70px;
+  padding: 7px 31px 0 0;
 }
 .section2-container-block-middle__restaurant-all p {
   text-align: center;
@@ -3876,7 +3876,6 @@ p.section3-content-p__loyalty-program {
   margin-top: 240px;
 }
 .section2-container__franchise p {
-  max-width: 1085px;
   text-align: center;
   font-size: min(84px, 4.4vw);
   margin: 0 auto;
@@ -3930,7 +3929,7 @@ p.section3-content-p__loyalty-program {
   position: relative;
   overflow: hidden;
   padding-bottom: 280px;
-  padding-top: 75px;
+  padding-top: 48px;
   border-bottom: 1px solid #454545;
 }
 .section2-line__franchise {
@@ -3988,7 +3987,7 @@ p.section3-content-p__loyalty-program {
 }
 .section3__franchise {
   padding-top: 120px;
-  padding-bottom: 100px;
+  padding-bottom: 108px;
   border-bottom: 1px solid #454545;
 }
 .section3__franchise {
@@ -4060,7 +4059,7 @@ p.section3-content-p__loyalty-program {
   align-items: center;
 }
 .section4-container__franchise {
-  padding-bottom: 240px;
+  padding-bottom: 253px;
 }
 .section4-line__franchise {
   width: 1px;
@@ -4114,6 +4113,7 @@ p.section3-content-p__loyalty-program {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  padding-top: 20px;
 }
 .section5-top-right-block__franchise {
   color: #454545;
@@ -5436,7 +5436,7 @@ body .galleryAnim .galleryAnim__fraction {
   font-style: normal;
   font-weight: 450;
   line-height: 26px; /* 130% */
-  letter-spacing: 0.6px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 .section-map-top-right__franchise {
@@ -6146,6 +6146,7 @@ header {
 .franchise_cl-caption > p,
 .franchise_cl-caption {
   color: #dfdfdf !important;
+  line-height: min(271px, 16.3vw) !important;
 }
 
 .news__content {

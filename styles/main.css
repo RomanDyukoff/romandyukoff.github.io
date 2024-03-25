@@ -5,7 +5,12 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
-
+.main-page__blockplace-container {
+  padding-bottom: 250px !important;
+}
+.main-page__blockplace {
+  padding-top: 84px;
+}
 .main-mr {
   margin-right: 15px;
 }
@@ -19,6 +24,14 @@
 .prb-g,
 .pr-g {
   padding-left: 20%;
+}
+.main-page__blocklast-br br {
+  display: none;
+}
+@media (min-width: 1240px) {
+  .main-page__blocklast-br br {
+    display: block;
+  }
 }
 @media (max-width: 475px) {
   div.page-main__line2 {
