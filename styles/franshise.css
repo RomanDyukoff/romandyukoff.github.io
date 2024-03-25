@@ -68,6 +68,7 @@
 }
 .franchise-page-container {
   height: 1023px;
+  gap: 18px;
 }
 .franchise-page-caption__p > p {
   font-size: 60px;
