@@ -73,13 +73,16 @@ button {
 ul li {
   list-style: none;
 }
+body{
+  overflow-x: hidden !important;
+}
 html,
 body {
   margin: 0;
   position: relative;
   height: auto;
   scroll-behavior: smooth;
-  overflow-x: hidden !important;
+
 }
 h1,
 h2,
@@ -1146,7 +1149,7 @@ footer {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 26px; /* 130% */
   letter-spacing: 0.2px;
   text-decoration-line: underline;
@@ -1178,6 +1181,7 @@ footer {
   gap: 8px;
   display: flex;
   align-items: center;
+  padding-right: 80px;
 }
 .footer-bottom {
   display: flex;
@@ -1188,7 +1192,7 @@ footer {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 26px; /* 130% */
   letter-spacing: 0.2px;
 }
