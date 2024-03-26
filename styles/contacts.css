@@ -10,18 +10,28 @@
   width: 296px;
   height: 390px;
 }
-
+.contacts-page__imgMain {
+  padding: 0 150px;
+}
 .contacts-page__imgOne > img {
   width: 100%;
   height: 100%;
 }
 .contacts-page__container {
-  padding: 270px 15px 240px 0;
+  padding: 285px 15px 298px 0;
 }
 .contacts-page__container-сс {
-  padding: 270px 15px 231px 15px;
+  padding: 282px 15px 276px 15px;
 }
-
+.panel-block-top-left > div {
+  display: flex;
+  gap: 22px;
+}
+@media (max-width: 1920px) {
+  h3.c-per {
+    max-width: 430px;
+  }
+}
 @media (max-width: 1050px) {
   .contacts-page__caption {
     padding-top: 18px;

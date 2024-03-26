@@ -879,7 +879,7 @@ footer {
   z-index: 999;
 }
 .section6__secret-assistants {
-  padding-bottom: 16%;
+  padding-bottom: 15%;
   position: relative;
   z-index: 999999;
   margin-top: -136px;
@@ -983,10 +983,9 @@ footer {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  gap: 5px;
   font-weight: 400;
   line-height: 26px; /* 130% */
-  letter-spacing: 0.2px;
+  letter-spacing: 0.6px;
 }
 
 /* создание в label псевдоэлемента  before со следующими стилями */
@@ -1432,7 +1431,7 @@ footer {
 .section2__looking-premises {
   position: relative;
   border-bottom: 1px solid #454545;
-  padding: 280px 0;
+  padding: 288px 0;
 }
 .line-height {
   height: 100%;
@@ -1658,7 +1657,7 @@ p.section3-content-p__loyalty-program {
   gap: 238px;
 }
 .section3-content__loyalty-program {
-  padding-bottom: 137px;
+  padding-bottom: 119px;
 }
 .section5-container__loyalty-program {
   display: flex;
@@ -1916,7 +1915,7 @@ p.section3-content-p__loyalty-program {
 .section5-container__bankets-second {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 40px;
   align-items: center;
   padding-top: 11%;
 }
@@ -2185,8 +2184,8 @@ p.section3-content-p__loyalty-program {
   text-transform: uppercase;
 }
 .section1__contacts {
-  padding-top: 200px;
-  padding-bottom: 120px;
+  padding-top: 156px;
+  padding-bottom: 78px;
   border-bottom: 1px solid #454545;
   position: relative;
   overflow: hidden;
@@ -2280,7 +2279,9 @@ p.section3-content-p__loyalty-program {
   letter-spacing: 0.2px;
 }
 .section4-container-block__contacts {
-  width: 50%;
+  flex: 1 1 50%;
+  height: 280px;
+  gap: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2383,7 +2384,7 @@ p.section3-content-p__loyalty-program {
 }
 .panel-block-top {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 .panel-block-bottom-social {
@@ -2655,7 +2656,7 @@ p.section3-content-p__loyalty-program {
 }
 .section2__career {
   position: relative;
-  padding-bottom: 280px;
+  padding-bottom: 265px;
   background: #0d0d0d;
   border-bottom: 1px solid #454545;
   z-index: 99999;
@@ -3309,7 +3310,7 @@ p.section3-content-p__loyalty-program {
   margin-top: -30px;
   text-transform: uppercase;
   width: 100%;
-  padding: 120px 0;
+  padding: 200px 0 120px 0;
 }
 .section1-container-block__news {
   display: flex;
@@ -3372,7 +3373,7 @@ p.section3-content-p__loyalty-program {
   height: 100%;
   position: absolute;
   top: 0;
-  right: 25%;
+  right: 26%;
   width: 1px;
   background: #454545;
 }
@@ -5119,7 +5120,11 @@ body .galleryAnim .galleryAnim__fraction {
 }
 .p__vacancy-career {
   display: block;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
+  letter-spacing: -1px !important;
+}
+.order-city-p {
+  margin-bottom: 93px;
 }
 .city__career {
   display: none;
@@ -5130,6 +5135,9 @@ body .galleryAnim .galleryAnim__fraction {
   align-items: center;
   border-bottom: 1px solid #454545;
   gap: 54px;
+}
+.career__page-container_h1 {
+  padding: 278px 15px;
 }
 .career__page-container_h1 > p {
   max-width: 450px;

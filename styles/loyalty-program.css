@@ -1,6 +1,9 @@
 .loyalty-program__page-caption {
   padding-top: 200px;
-  padding-bottom: 271px !important;
+  padding-bottom: 260px !important;
+}
+.loyalty-program__page-h1 {
+  gap: 23px !important;
 }
 .loyalty-program__page-imgOne {
   width: 639px;
@@ -11,14 +14,26 @@
   width: 100%;
   height: 100%;
 }
+.loyalty-program__page-container-Mainimg {
+  padding: 0;
+}
 .loyalty-program__page-container {
   padding: 0;
   padding-top: 15%;
-  padding-bottom: 11%;
+  padding-bottom: 14.6%;
 }
 .loyalty-program__page-container-img {
   width: 296px;
   height: 390px;
+}
+.loyalty-program__page-block3-title-cont > div:first-child {
+  padding-left: 20px !important;
+}
+.loyalty-program__page-block3-title-cont {
+  gap: 196px;
+}
+.loyalty-program__page-block3-title {
+  padding-bottom: 80px !important;
 }
 
 @media (max-width: 1050px) {
@@ -67,8 +82,8 @@
     width: 49%;
   }
   .section5-container__loyalty-program p {
-    font-size:40px;
-    line-height:48px;
+    font-size: 40px;
+    line-height: 48px;
   }
   .section5__loyalty-program {
     padding-top: 22%;

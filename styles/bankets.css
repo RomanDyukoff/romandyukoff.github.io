@@ -1,11 +1,17 @@
 .bankets-page__wrapper {
   padding-top: 200px !important;
-  padding-bottom: 14% !important;
+  padding-bottom: 13% !important;
 }
 .bankets__h1 > h1 {
   max-width: 930px;
+  margin: 0;
 }
-
+.bankets__h1 {
+  gap: 23px;
+}
+.bankets-page__img-main {
+  padding: 0 150px;
+}
 .bankets-page__caption {
   display: none;
   position: absolute;
@@ -18,6 +24,9 @@
   letter-spacing: 1px;
   text-align: left;
   text-transform: uppercase;
+}
+.bankets-page__imgResize {
+  padding: 280px 20px 276px 20px;
 }
 @media (min-width: 1151px) {
   .bankets-page__hover {

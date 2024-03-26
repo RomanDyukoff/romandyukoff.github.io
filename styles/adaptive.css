@@ -5044,6 +5044,9 @@
   h1.secret-assistants-size {
     max-width: 316px;
   }
+  .looking-premises-page__main-imgSR {
+    padding: 0;
+  }
   .secret-assistants-text {
     width: 335px;
     letter-spacing: -2px;
