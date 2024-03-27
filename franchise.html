@@ -798,7 +798,7 @@
       </section>
       <section class="section4__looking-premises">
         <div class="section4-container__looking-premises">
-          <div class="section4-container-block__looking-premises">
+          <div class="section4-container-block__looking-premises looking-premises-p">
             <p>
               Мы отправим список требований к помещению и поможем выбрать лучший
               вариант.
@@ -807,7 +807,7 @@
             <h5>Поиск помещения</h5>
           </div>
           <div
-            class="section4-container-block__looking-premises section4-container-block__looking-premises2"
+            class="section4-container-block__looking-premises section4-container-block__looking-premises2 looking-premises-p"
           >
             <p>
               Мы разработаем индивидуальный дизайн-проект, учитывая
@@ -817,7 +817,7 @@
             <h5>Договор</h5>
           </div>
           <div
-            class="section4-container-block__looking-premises section4-container-block__looking-premises3"
+            class="section4-container-block__looking-premises section4-container-block__looking-premises3 looking-premises-p"
           >
             <p>
               Мы вышлем список всего необходимого и окажем консультационную
@@ -827,7 +827,7 @@
             <h5>Дизайн-проект</h5>
           </div>
           <div
-            class="section4-container-block__looking-premises section4-container-block__looking-premises4"
+            class="section4-container-block__looking-premises section4-container-block__looking-premises4 looking-premises-p"
           >
             <p>
               Мы вышлем список всего необходимого и окажем консультационную
@@ -837,7 +837,7 @@
             <h5>Стройка</h5>
           </div>
           <div
-            class="section4-container-block__looking-premises section4-container-block__looking-premises5"
+            class="section4-container-block__looking-premises section4-container-block__looking-premises5 looking-premises-p"
           >
             <p>
               За неделю до открытия мы отправим стандарты сервиса и обучающие
@@ -848,7 +848,7 @@
             <h5>Обучение</h5>
           </div>
           <div
-            class="section4-container-block__looking-premises section4-container-block__looking-premises5"
+            class="section4-container-block__looking-premises section4-container-block__looking-premises5 looking-premises-p"
           >
             <p>Техническое, а после — торжественное официальное открытие!</p>
             <span>6</span>
@@ -875,14 +875,14 @@
         <div class="section4__careeer-line"></div>
         <div class="section4-container__careeer">
           <div class="section4-container-block__careeer franchise-page__container-list">
-            <div class="section4-container-block-part__careeer">
+            <div class="section4-container-block-part__careeer looking-premises-p">
               <h3>Продвижение</h3>
               <p>
                 Размещение и продвижение на всех рекламных каналах компании, а
                 это — более 100 000 человек суммарной аудитории.
               </p>
             </div>
-            <div class="section4-container-block-part__careeer">
+            <div class="section4-container-block-part__careeer looking-premises-p">
               <h3 class="franchise-page-pl">Сообщество</h3>
               <p>
                 Место в нашей большой семье Art Hookah Family и Tangiers Lounge
@@ -891,13 +891,13 @@
             </div>
           </div>
           <div class="section4-container-block__careeer franchise-page__container-list">
-            <div class="section4-container-block-part__careeer">
+            <div class="section4-container-block-part__careeer looking-premises-p">
               <h3>Поддержка менеджера</h3>
               <p>
                 Личный менеджер будет всегда на связи по любым рабочим вопросам.
               </p>
             </div>
-            <div class="section4-container-block-part__careeer">
+            <div class="section4-container-block-part__careeer looking-premises-p">
               <h3 class="franchise-page-pl">Маркетинг</h3>
               <p>
                 Мы сами привлекаем для вас клиентов. Соцсети, контекстная
@@ -1249,7 +1249,7 @@
           }
           .section-map-content-block-into-text__franchise {
             height: 100%;
-            gap: 4px;
+            gap: 16px;
           }
           .section-map-content-block-into-text__franchise > p {
             font-size: 1vw;
@@ -1347,21 +1347,18 @@
               />
               <input
                 type="tel"
-                placeholder="Телефон"
-                class="input-tel__secret-assistants"
+                placeholder="Город"
+                class="input-name__secret-assistants"
               />
               <input
                 type="text"
-                placeholder="Город"
+                placeholder="Телефон"
                 class="input-city__secret-assistants"
               />
               <input
-                min="0"
-                max="9999"
-                maxlength="4"
-                oninput="this.value=this.value.slice(0,this.maxLength||0/0);this.value=(this.value   < 0) ? (1/1) : this.value;"
-                placeholder="Количество человек"
-                class="input-name__secret-assistants"
+                type="text"
+                placeholder="Почта"
+                class="input-tel__secret-assistants"
               />
               <input
                 type="text"
@@ -1377,8 +1374,8 @@
                   value="indigo"
                 />
                 <label for="color-3"
-                  >Даю согласие на
-                  <a href="/">обработку персональных данных</a></label
+                  >Даю согласие на обработку&nbsp;
+                  <a href="/"> персональных данных</a></label
                 >
               </div>
               <button type="button">Отправить</button>

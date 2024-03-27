@@ -73,7 +73,7 @@ button {
 ul li {
   list-style: none;
 }
-body{
+body {
   overflow-x: hidden !important;
 }
 html,
@@ -82,7 +82,6 @@ body {
   position: relative;
   height: auto;
   scroll-behavior: smooth;
-
 }
 h1,
 h2,
@@ -133,6 +132,7 @@ a {
   left: 50%;
   transform: translate(-50%, 0);
   height: 100%;
+  z-index: 99999;
 }
 input,
 textarea {
@@ -1984,6 +1984,7 @@ p.section3-content-p__loyalty-program {
 .section2-top-right-btn__sertificate-active {
   color: #dfdfdf;
   transition: 0.5s;
+  font-weight: 600;
 }
 .section2-top-right-btn__sertificate:hover {
   color: #dfdfdf;
@@ -1999,7 +2000,7 @@ p.section3-content-p__loyalty-program {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -2210,7 +2211,7 @@ p.section3-content-p__loyalty-program {
   font-family: "FuturaPT", sans-serif;
   font-size: max(20px, 1.042vw);
   font-style: normal;
-  font-weight: 450;
+  font-weight: 600;
   line-height: max(26px, 1.354vw); /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -2314,7 +2315,7 @@ p.section3-content-p__loyalty-program {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -2360,7 +2361,7 @@ p.section3-content-p__loyalty-program {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -2381,7 +2382,7 @@ p.section3-content-p__loyalty-program {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -2841,7 +2842,7 @@ p.section3-content-p__loyalty-program {
 }
 .section5-content-block__rent-hookahs {
   width: 33.333%;
-  height: 639px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2931,7 +2932,7 @@ p.section3-content-p__loyalty-program {
 .section3-parent__catering {
   height: 100%;
   border-bottom: 1px solid #454545;
-  padding-bottom: 280px;
+  padding-bottom: 295px;
   position: relative;
   overflow: hidden;
 }
@@ -3337,7 +3338,7 @@ p.section3-content-p__loyalty-program {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -3404,6 +3405,12 @@ p.section3-content-p__loyalty-program {
   letter-spacing: 1.65px;
   text-transform: uppercase;
 }
+.section1-block__restoran:first-child {
+  letter-spacing: 3px !important;
+}
+.section1-block__restoran:nth-child(2) {
+  letter-spacing: -3px !important;
+}
 .section2__restoran {
   position: relative;
   overflow: hidden;
@@ -3447,7 +3454,7 @@ p.section3-content-p__loyalty-program {
   font-size: 20px;
   padding-top: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -3594,7 +3601,7 @@ p.section3-content-p__loyalty-program {
 .section7-container-input-block__restoran p {
   color: #454545;
   /* Desktop/Caption (form) */
-  font-family: Futura PT, sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -3606,13 +3613,14 @@ p.section3-content-p__loyalty-program {
   border: none;
   border-bottom: 1px solid #454545;
   color: #dfdfdf;
-  font-family: Futura PT, sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
   background: transparent;
   font-weight: 400;
   line-height: 26px; /* 130% */
   letter-spacing: 0.2px;
+  z-index: 44;
 }
 .section7-container-input-block__restoran input::placeholder {
   color: #dfdfdf;
@@ -3650,14 +3658,41 @@ p.section3-content-p__loyalty-program {
 .section7-container-input-block__restoran
   input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  color: transparent;
+  background: transparent;
 }
 .section7-container-input-block__restoran
   input[type="time"]::-webkit-calendar-picker-indicator {
   opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  color: transparent;
+  background: transparent;
 }
 .section7-container-input-block__restoran
   input[type="number"]::-webkit-calendar-picker-indicator {
   opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  color: transparent;
+  background: transparent;
 }
 .section7-container-input-block__restoran {
   position: relative;
@@ -3678,7 +3713,7 @@ p.section3-content-p__loyalty-program {
 }
 .form-send-btn {
   color: #0d0d0d;
-  font-family: Futura PT, sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 450;
@@ -3771,7 +3806,7 @@ p.section3-content-p__loyalty-program {
 .section2-container-block-left__restaurant-all > a {
   font-family: "FuturaPT", sans-serif !important;
   font-size: 18px;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 24px;
   letter-spacing: 0.01em;
   text-align: left;
@@ -3811,14 +3846,14 @@ p.section3-content-p__loyalty-program {
 }
 .section2-container-block-right__restaurant-all img {
   width: 356px;
-  height: 100%;
+  height: 240px;
   object-fit: cover;
 }
 .section2-container-block-left-top__restaurant-all p {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -3827,7 +3862,7 @@ p.section3-content-p__loyalty-program {
   font-family: "FuturaPTMedium", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -3852,7 +3887,7 @@ p.section3-content-p__loyalty-program {
   padding-top: 20px;
   font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 26px; /* 130% */
   letter-spacing: 0.2px;
 }
@@ -3926,7 +3961,7 @@ p.section3-content-p__loyalty-program {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 26px; /* 130% */
   letter-spacing: 0.2px;
 }
@@ -4091,7 +4126,7 @@ p.section3-content-p__loyalty-program {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -4284,7 +4319,7 @@ p.section3-content-p__loyalty-program {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -5166,10 +5201,11 @@ body .galleryAnim .galleryAnim__fraction {
   text-transform: uppercase;
 }
 .section6-container-block-text__career span {
+  font-family: "FuturaPT", sans-serif;
   text-align: center;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -5458,7 +5494,7 @@ body .galleryAnim .galleryAnim__fraction {
   gap: 6px;
 }
 .section-map-top-right__franchise p {
-  font-family: Futura PT, sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 450;
@@ -5467,10 +5503,10 @@ body .galleryAnim .galleryAnim__fraction {
   text-transform: uppercase;
 }
 .section-map-top-right__franchise span {
-  font-family: Futura PT, sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 26px; /* 130% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -5532,7 +5568,7 @@ body .galleryAnim .galleryAnim__fraction {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 26px; /* 130% */
   letter-spacing: 0.2px;
 }
@@ -6159,6 +6195,7 @@ header {
 .franchise_cl-caption {
   color: #dfdfdf !important;
   line-height: min(271px, 16.3vw) !important;
+  letter-spacing: 1px;
 }
 
 .news__content {
@@ -6191,6 +6228,7 @@ header {
   font-weight: 400;
   line-height: 48px;
   letter-spacing: -0.01em;
+  text-transform: uppercase;
   text-align: center;
   color: #dfdfdf;
 }
@@ -6210,11 +6248,16 @@ header {
 .title {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 26px;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
   text-align: center;
   color: #454545;
+}
+.title-gl {
+  width: 817px;
+  margin: 0 auto;
 }
 .title-cl {
   color: #dfdfdf;

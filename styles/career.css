@@ -60,6 +60,9 @@
 .career__page-contMain {
   padding: 0;
 }
+.career__page-container-pfw {
+  font-weight: 400 !important;
+}
 .career1 {
   gap: 45px;
   padding-bottom: 100px;

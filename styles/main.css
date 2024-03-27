@@ -25,6 +25,9 @@
 .pr-g {
   padding-left: 20%;
 }
+.block-two-line {
+  border-top: 1px solid #454545;
+}
 .main-page__blocklast-br br {
   display: none;
 }

@@ -38,11 +38,13 @@
   }
   .section3-container-block__bankets:hover > p {
     position: absolute;
-    left: 50%;
-    top: 30%;
+    left: 52%;
+    top: 37%;
     transform: translate(-50%, 0);
   }
-
+  .section4__banketss {
+    letter-spacing: -2px !important;
+  }
   .section3-container-block__bankets:hover > span {
     position: absolute;
     display: block;
@@ -53,6 +55,7 @@
     letter-spacing: -1px;
     text-align: center;
     max-width: 516px;
+    top: 46%;
     opacity: 1;
     transition: 0.3s;
   }

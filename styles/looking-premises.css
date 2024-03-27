@@ -37,6 +37,9 @@ h1.secret-assistants-size {
 .looking-premises-page__block1-br br {
   display: none;
 }
+.looking-premises-page__block2-title-ps{
+  font-weight: 400 !important;
+}
 .looking-premises-page__block4-gap1 {
   gap: 8px;
 }

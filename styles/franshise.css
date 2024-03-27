@@ -9,6 +9,15 @@
   border-left: 1px solid #454545;
   padding-top: 45px;
 }
+.franchise-page__container-title {
+  gap: 11px;
+}
+.franchise-page__container-title > div {
+  padding-top: 17px;
+}
+.looking-premises-p > p,h3 {
+  font-weight: 450;
+}
 .franchise-page-caption > h1 {
   font-size: 40px;
   font-style: normal;

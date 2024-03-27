@@ -1,20 +1,30 @@
 .catering-page__wrapper {
-  padding-top: 180px;
-  padding-bottom: 276px;
+  padding-top: 198px;
+  padding-bottom: 256px;
 }
 .catering-page__container {
-  padding-bottom: 287px !important;
+  padding-bottom: 264px !important;
+}
+p.catering-page__general-p {
+  padding-top: 277px !important;
+  margin-bottom: 47px !important;
+}
+.catering__content-not {
+  padding: 0 150px;
 }
 .catering-page__container-img {
-  padding-top: 267px;
-  padding-bottom: 290px;
+  padding: 267px 0;
 }
 .catering__page-container-imgLast {
-  padding: 280px 20px 270px 20px !important;
+  padding: 280px 20px 335px 20px !important;
 }
 .catering-page__container-h1 > h1 {
   font-size: min(84px, 4.4vw) !important;
   line-height: min(84px, 4.4vw) !important;
+  margin: 0;
+}
+.catering-page__container-h1 {
+  gap: 45px;
 }
 .catering-page__container-imgThree > img {
   width: 495px;
@@ -23,6 +33,15 @@
 .catering-page__form {
   height: 1261px !important;
   gap: 21px;
+}
+.section13__catering-ps {
+  padding-bottom: 254px !important;
+}
+.catering-page__container-mainCont {
+  padding-top: 108px;
+}
+.catering-page__form > p {
+  margin-bottom: 96px !important;
 }
 .catering-page__container-ultra-mob {
   display: none !important;
@@ -35,17 +54,21 @@
   display: none;
   width: 100%;
 }
-
+.long-p__catering__dn {
+  text-transform: none !important;
+  padding-top: 10px;
+  margin-top: 0 !important;
+}
 .catering__page-new__wrapper-ultra,
 .catering__page-new__wrapper {
   display: flex;
   gap: 10px;
   width: 100%;
+  padding: 0 20px;
 }
 .catering__page-new__wrapper-ultra {
-  justify-content: space-between;
-  padding: 0 40px;
-  gap: 0;
+  padding: 0 40px 0 20px;
+  gap: 19%;
 }
 .catering__page-new__item-ultra > span,
 .catering__page-new__item-ultra > p,
@@ -61,19 +84,20 @@
   letter-spacing: -1px;
   text-align: left;
   color: #454545;
+  text-transform: none;
 }
 .catering__page-new__items {
   display: flex;
   gap: 20px;
   width: 50%;
-  padding: 0 20px;
+}
+.catering__page-new__item span {
+  text-transform: none;
 }
 .catering__page-new__items-last {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   width: 100%;
-  padding: 0 20px;
 }
 .catering__page-new__items:nth-last-child(2) {
   flex-direction: column;
@@ -89,10 +113,10 @@
   border-bottom: 1px solid #454545;
   width: 100%;
   gap: 10px;
-  padding-bottom: 10px;
 }
 .catering__page-new-title {
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 .catering__page-new__item-ultra > span,
 .catering__page-new__item-ultra-last > span,
@@ -111,6 +135,13 @@
   text-transform: uppercase;
   letter-spacing: -1px;
   text-align: center;
+  margin-top: 33px;
+}
+.catering-page__container-h1Rs {
+  gap: 28px;
+}
+.catering-page__container-h1Rs > h1 {
+  margin: 0;
 }
 .catering__page-new__itemsList-ultra {
   display: flex;
@@ -120,7 +151,7 @@
 .catering__page-new__items-ultra-last {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 60px;
 }
 .catering__page-new__item-ultra,
 .catering__page-new__item-ultra-last {
@@ -129,7 +160,7 @@
   gap: 10px;
 }
 .catering__page-new-caption {
-  padding: 20px;
+  padding: 0 20px;
 }
 .catering__page-new-caption > p {
   font-family: "FuturaPT", sans-serif;
@@ -138,6 +169,8 @@
   line-height: 26px;
   letter-spacing: 0.01em;
   text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 .catering__wrapper {
@@ -232,7 +265,35 @@
   width: 100%;
   gap: 27px;
 }
-
+.catering-page__containerm1 {
+}
+.catering-page__containerm2 {
+  padding: 0;
+  gap: 0;
+}
+.catering-page__containerm3 {
+  width: 100%;
+  flex: 1 1 50%;
+  padding: 20px;
+  justify-content: inherit;
+  gap: 9%;
+}
+.catering-page__containerm3 > h3 {
+  flex: 0 1 41%;
+  letter-spacing: 0;
+}
+.catering-page__containerm3 > p {
+  font-weight: 400;
+}
+.catering-page__containerm3:nth-child(2n + 2) {
+  border-left: 1px solid #454545;
+}
+.catering-page__content {
+  padding: 262px 20px 283px 20px !important;
+}
+.catering-page__container-notfs p {
+  font-weight: 400;
+}
 @media (min-width: 1151px) {
   .catering__page-hover {
     position: relative;
@@ -243,10 +304,10 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    top: 1%;
+    top: 7%;
   }
   .catering__page-hover:hover > .catering__page-ultra {
-    gap: 75px !important;
+    gap: 35px !important;
     justify-content: space-between !important;
     align-items: flex-start;
   }
@@ -398,9 +459,7 @@
     width: 128px !important;
     height: 165px;
   }
-  p.catering-page__general-p {
-    padding-top: 88px;
-  }
+
   .catering-page__container-h1 > h1 {
     font-size: 32px !important;
     line-height: 32px !important;

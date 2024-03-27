@@ -81,6 +81,9 @@
   flex-direction: column;
   gap: 20px;
 }
+.cookies-title > span > a {
+  text-decoration: underline;
+}
 .cookies-mw {
   max-width: 957px;
 }
@@ -163,6 +166,10 @@
   max-width: 730px;
   width: 100%;
   overflow: auto;
+}
+.btn__en-bg {
+  background: #dfdfdf !important;
+  color: #0d0d0d !important;
 }
 .cookies-item {
   display: flex;
