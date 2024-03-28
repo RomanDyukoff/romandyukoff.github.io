@@ -130,7 +130,11 @@
     padding-bottom: 48px;
   }
 }
-
+@media (min-width: 1550px) {
+  .rent-page__btn-form {
+    display: flex !important;
+  }
+}
 .test1 {
   --size-desktop-width: 614px;
   --size-desktop-height: 800px;
@@ -215,7 +219,7 @@
   justify-content: center;
 }
 .rent-hookahs-page_btn > button {
-  font-family: " FuturaPT", sans-serif;
+  font-family: " FuturaPTM", sans-serif;
   font-size: 14px;
   font-weight: 450;
   line-height: 18px;
@@ -227,8 +231,18 @@
 }
 .rent-page__btn {
   position: absolute;
-  right: 5%;
-  top: 5%;
+  right: 8%;
+  top: 6%;
+}
+.rent-page__btn-two-tablet {
+  display: flex;
+}
+.tablet3 p {
+  font-size: 40px !important;
+  line-height: 48px !important;
+}
+.not-mob p {
+  max-width: 100%;
 }
 .rent-page__btn:hover > svg {
   fill: #dfdfdf;
@@ -247,25 +261,31 @@
 .rent-page__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  align-items: center;
+  gap: 0px;
+  align-items: flex-end;
   position: relative;
   border-right: 1px solid #454545;
   height: 700px;
   max-width: 25%;
-  padding: 40px;
+  padding: 40px 40px 34px 40px;
   width: 100%;
-  justify-content: flex-end;
+}
+.rent-page__container-top > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .rent-page__container-top {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   align-items: center;
+  gap: 32px;
   justify-content: flex-end;
 }
+.rent-page__container-top > p,
 .rent-page__container-bottom > p,
-.rent-page__container-top > p {
+.rent-page__container-bottom > div > p,
+.rent-page__container-top > div > p {
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -273,8 +293,10 @@
   text-align: center;
   text-transform: uppercase;
 }
+.rent-page__container-top > span,
 .rent-page__container-bottom > span,
-.rent-page__container-top > span {
+.rent-page__container-bottom > div > span,
+.rent-page__container-top > div > span {
   font-family: "FuturaPT", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -284,11 +306,11 @@
 }
 .section5-content-block__rent-hookahs > a,
 .rent-page__container-top > a {
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 14px;
   font-weight: 450;
   line-height: 18px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.5px;
   text-align: center;
   width: 152px;
   height: 40px;
@@ -298,16 +320,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 39px;
   text-transform: uppercase;
+}
+.btn-mr {
+  margin-top: 20px;
 }
 .rent-page__container-bottom > p {
   color: #454545;
   text-align: left;
+  font-family: "FuturaPTM", sans-serif;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 24px;
+  padding-top: 20px;
+}
+.clear {
+  opacity: 0;
+}
+.colba {
+  padding: 0 0 0 40px;
+  justify-content: space-between;
 }
 .rent-page__container-block4 {
   justify-content: center;
   height: 591px;
+  align-items: center;
 }
 .rent-page__container-inputs {
   display: flex;
@@ -357,7 +394,7 @@ button.controller-form {
     flex-direction: row;
   }
 }
-@media (max-width: 1150px) {
+@media (max-width: 1550px) {
   .rent-page__btn-form-mob {
     display: flex !important;
   }

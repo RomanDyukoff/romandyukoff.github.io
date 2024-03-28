@@ -19,9 +19,6 @@
   .section4-text__restoran > p {
     letter-spacing: -2px;
   }
-  .rent-page__btn-form {
-    display: flex !important;
-  }
 }
 @media (max-width: 1550px) {
   .section4-container-block__careeer {
@@ -59,7 +56,12 @@
     left: 1.4%;
     bottom: 20%;
   }
-
+  .section6__rent-hookahs {
+    display: block !important;
+  }
+  .section5__rent-hookahs {
+    display: none !important;
+  }
   .section4-kamen1__secret-assistants-photo {
     width: 10%;
   }
@@ -343,12 +345,7 @@
     font-size: 18px;
     line-height: 24px; /* 133.333% */
   }
-  .section5__rent-hookahs {
-    display: none;
-  }
-  .section6__rent-hookahs {
-    display: block;
-  }
+
   .section6-container-block__career {
     position: relative;
   }

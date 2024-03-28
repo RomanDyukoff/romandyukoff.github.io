@@ -128,12 +128,12 @@ p.catering-page__general-p {
   height: 40px;
   padding: 8px;
   border-radius: 32px;
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 450;
   line-height: 20px;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: 0.5px;
   text-align: center;
   margin-top: 33px;
 }
@@ -237,11 +237,12 @@ p.catering-page__general-p {
   width: 160px;
   height: 40px;
   border-radius: 20px;
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 450;
   line-height: 20px;
-  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   text-align: center;
 }
 .catering__actions {
@@ -252,11 +253,11 @@ p.catering-page__general-p {
   padding: 0 20px;
 }
 .catering__actions > span {
-  font-family: "Futura PT", sans-serif;
+  font-family: "Futura PTM", sans-serif;
   font-size: 20px;
   font-weight: 450;
   line-height: 26px;
-  letter-spacing: -1px;
+  letter-spacing: 0.6px;
   text-align: left;
   text-transform: uppercase;
 }
