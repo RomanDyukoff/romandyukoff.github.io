@@ -15,7 +15,12 @@
 .franchise-page__container-title > div {
   padding-top: 17px;
 }
-.looking-premises-p > p,h3 {
+.looking-premises-p > p {
+  font-weight: 400 !important;
+  font-family: "FuturaPT", sans-serif;
+}
+.looking-premises-p > p,
+h3 {
   font-weight: 450;
 }
 .franchise-page-caption > h1 {
