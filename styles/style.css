@@ -136,7 +136,7 @@ a {
   left: 50%;
   transform: translate(-50%, 0);
   height: 100%;
-  z-index: 99999;
+  z-index: 9999;
 }
 input,
 textarea {
@@ -390,7 +390,7 @@ header {
   display: block;
   border-bottom: 1px solid #454545;
   position: relative;
-  font-family: "FuturaBookC", sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
@@ -1729,7 +1729,7 @@ p.section3-content-p__loyalty-program {
   display: flex !important;
 }
 .section6-content-block__loyalty-program {
-  width: 17%;
+  width: 18%;
 }
 .section6-content-block__loyalty-program img {
   width: 100%;
@@ -1757,7 +1757,7 @@ p.section3-content-p__loyalty-program {
 }
 .section6-content__loyalty-program {
   display: flex;
-  gap: 84px 9.4vw;
+  gap: 84px 8vw;
   padding: 120px 99px;
   flex-wrap: wrap;
 }
@@ -2457,7 +2457,7 @@ p.section3-content-p__loyalty-program {
   border-radius: 20px;
   background: #dfdfdf;
   margin-top: 20px;
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 450;
@@ -3005,6 +3005,7 @@ p.section3-content-p__loyalty-program {
   align-items: center;
   width: 50%;
   padding: 3% 0 3.5% 0;
+  position: relative;
 }
 
 .section7-container-block__catering:first-child {
@@ -3396,6 +3397,7 @@ p.section3-content-p__loyalty-program {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 .section7__franchise-tx {
   padding-top: 0;
@@ -3406,7 +3408,7 @@ p.section3-content-p__loyalty-program {
   font-size: min(322px, 16.3vw);
   font-style: normal;
   font-weight: 400;
-  line-height: min(322px, 16.3vw); /* 68.323% */
+  line-height: min(260px, 13.542vw); /* 68.323% */
   letter-spacing: 1.65px;
   text-transform: uppercase;
 }
@@ -6194,7 +6196,6 @@ header {
 .franchise_cl-caption > p,
 .franchise_cl-caption {
   color: #dfdfdf !important;
-  line-height: min(271px, 16.3vw) !important;
   letter-spacing: 1px;
 }
 
@@ -6486,7 +6487,7 @@ header {
   display: flex;
   gap: 20px;
   align-items: center;
-  max-width: 319px;
+  max-width: 320px;
   width: 100%;
   position: absolute;
   right: 5%;

@@ -129,7 +129,7 @@
   height: 40px;
   margin-top: 40px;
   background: none;
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 16px;
   font-weight: 450;
   line-height: 20px;
@@ -147,6 +147,7 @@
 .cookies-title__EN > div > h3 {
   text-transform: uppercase;
   font-weight: 450;
+  font-family: "FuturaPTM", sans-serif;
 }
 .age-btn button:hover {
   color: #000;

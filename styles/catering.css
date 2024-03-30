@@ -295,6 +295,25 @@ p.catering-page__general-p {
 .catering-page__container-notfs p {
   font-weight: 400;
 }
+.tooltip {
+  display: none;
+}
+.active__tooltip:hover ~ .tooltip {
+  display: flex;
+}
+.tooltip__catering {
+  font-family: "FuturaPT", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  border-radius: 0 !important;
+  max-width: 470px !important;
+  padding: 20px !important;
+  text-transform: math-auto;
+  top: 16%;
+}
 @media (min-width: 1151px) {
   .catering__page-hover {
     position: relative;

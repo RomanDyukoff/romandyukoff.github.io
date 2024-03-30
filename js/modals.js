@@ -1,9 +1,10 @@
 const modalAge = [...window.document.querySelectorAll(".univers__modal")];
 const container = [...window.document.querySelectorAll(".age-container")];
+const radio = window.document.querySelectorAll(".custom-radio");
+const title = window.document.querySelectorAll(".item-EN__color");
 const cookies__container = [
   ...window.document.querySelectorAll(".cookies__EN"),
 ];
-
 const containerEn = [
   ...window.document.querySelectorAll(".univers__container"),
 ];
@@ -36,3 +37,13 @@ const handleNot = () => {
       : el.classList.add("isNot")
   );
 };
+title[0].style.color = "#dfdfdf";
+radio.forEach((el, i) =>
+  el.addEventListener("click", () => {
+    if (el.checked) {
+      title[i - 1].style.color = "#dfdfdf";
+    } else {
+      title[i - 1].style.color = "#454545";
+    }
+  })
+);
