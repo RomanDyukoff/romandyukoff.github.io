@@ -3657,6 +3657,9 @@ p.section3-content-p__loyalty-program {
   gap: 42px 20px;
   padding-top: 42px;
 }
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
 .section7-container-input-block__restoran
   input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
@@ -6027,7 +6030,8 @@ header {
 }
 .modal-header-book-content-middle-select svg {
   position: absolute;
-  right: 0;
+  right: 5px;
+  top: 15px;
 }
 .modal-header-book-content-middle {
   display: flex;
@@ -6085,13 +6089,25 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: auto;
 }
 .modal-header-book {
   opacity: 0;
   z-index: -1;
   transition: 0.5s;
 }
-
+.date-input {
+  width: 48%;
+  position: relative;
+}
+.date-input > input {
+  width: 100% !important;
+}
+.date-input > svg {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+}
 .section1-img__main4 {
   z-index: 9999999 !important;
 }

@@ -770,7 +770,7 @@
           <div class="modal-header-book-content-top">
             <p>Забронировать стол</p>
             <img
-              src="/img/close-map.png"
+              src="/img/Close.png"
               alt=""
               class="modal-header-book-close"
             />
@@ -805,16 +805,34 @@
               placeholder="Количество человек"
               class="modal-header-book-content-middle-short"
             />
-            <input
+            <div class="date-input">
+
+              <input
               type="date"
-              placeholder="Имя"
+              placeholder="Дата"
               class="modal-header-book-content-middle-short"
             />
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="10"
+                viewBox="0 0 8 10"
+                fill="none"
+              >
+                <path
+                  d="M8 9.53674e-07L4 10L8.74228e-07 2.54292e-07L8 9.53674e-07Z"
+                  fill="#DFDFDF"
+                />
+              </svg>
+            </div>
+            
             <input
               type="time"
-              placeholder="Имя"
+              placeholder="Время"
               class="modal-header-book-content-middle-short"
             />
+   
+            
             <div class="radio">
               <input
                 class="custom-radio"
@@ -824,8 +842,7 @@
                 value="indigo"
               />
               <label for="color-1"
-                >Даю согласие на&nbsp;обработку
-                <a href="/">персональных данных</a></label
+                >Даю согласие на обработку персональных данных</label
               >
             </div>
           </div>
@@ -869,7 +886,7 @@
             <div class="cookies-title">
               <h3>Мы используем файлы cookies</h3>
               <span
-                >Оставаясь на сайте, вы соглашаетесь c<a href="#">
+                >Оставаясь на сайте, вы соглашаетесь c<a  href="#">
                   условиями использования cookies.</a
                 ></span
               >
@@ -958,8 +975,8 @@
             </div>
             <div class="age-btn cookies-btn cookies-btn__EN">
               <button onclick="handleMoreEn()">Preferences</button>
-              <button onclick="handleOK()">decline</button>
-              <button onclick="handleOK()">accept</button>
+              <button class="btn__en-bg" onclick="handleOK()">decline</button>
+              <button class="btn__en-bg" onclick="handleOK()">accept</button>
             </div>
           </div>
           <div class="cookies-container cookies__EN cookies-preferences">
@@ -1052,7 +1069,7 @@
                 <div class="radio cookies-radio">
                   <input
                     class="custom-radio"
-                    type="radio"
+                    type="checkbox"
                     id="color-2"
                     name="cookies"
                     value="indigo"
@@ -1061,7 +1078,7 @@
                   <label for="color-2"></label>
                 </div>
                 <div class="item-EN">
-                  <span>Essential Cookies (14) <u>Details</u></span>
+                  <span class="item-EN__color">Essential Cookies (14) <u>Details</u></span>
                   <span
                     >These cookies are necessary to the core functionality of
                     our website and some of its features, such as access to
@@ -1073,7 +1090,7 @@
                 <div class="radio cookies-radio">
                   <input
                     class="custom-radio"
-                    type="radio"
+                    type="checkbox"
                     id="color-3"
                     name="cookies"
                     value="indigo"
@@ -1082,6 +1099,7 @@
                 </div>
                 <div class="item-EN">
                   <span
+                  class="item-EN__color"
                     >Performance and Functionality Cookies (11)
                     <u>Details</u></span
                   >
@@ -1097,7 +1115,7 @@
                 <div class="radio cookies-radio">
                   <input
                     class="custom-radio"
-                    type="radio"
+                    type="checkbox"
                     id="color-13"
                     name="cookies"
                     value="indigo"
@@ -1106,6 +1124,7 @@
                 </div>
                 <div class="item-EN">
                   <span
+                  class="item-EN__color"
                     >Analytics and Customization Cookies (18)
                     <u>Details</u></span
                   >
@@ -1122,7 +1141,7 @@
                 <div class="radio cookies-radio">
                   <input
                     class="custom-radio"
-                    type="radio"
+                    type="checkbox"
                     id="color-14"
                     name="cookies"
                     value="indigo"
@@ -1130,7 +1149,7 @@
                   <label for="color-14"></label>
                 </div>
                 <div class="item-EN">
-                  <span>Advertising Cookies (15) <u>Details</u></span>
+                  <span class="item-EN__color">Advertising Cookies (15) <u>Details</u></span>
                   <span
                     >These cookies are used to make advertising messages more
                     relevant to you. They prevent the same ad from continuously
@@ -1144,7 +1163,7 @@
                 <div class="radio cookies-radio">
                   <input
                     class="custom-radio"
-                    type="radio"
+                    type="checkbox"
                     id="color-15"
                     name="cookies"
                     value="indigo"
@@ -1152,7 +1171,7 @@
                   <label for="color-15"></label>
                 </div>
                 <div class="item-EN">
-                  <span>Social networking Cookies (15) <u>Details</u></span>
+                  <span class="item-EN__color">Social networking Cookies (15) <u>Details</u></span>
                   <span
                     >These cookies enable you to share our website's content
                     through third-party social networks and other websites.
@@ -1165,7 +1184,7 @@
                 <div class="radio cookies-radio">
                   <input
                     class="custom-radio"
-                    type="radio"
+                    type="checkbox"
                     id="color-17"
                     name="cookies"
                     value="indigo"
@@ -1173,7 +1192,7 @@
                   <label for="color-17"></label>
                 </div>
                 <div class="item-EN">
-                  <span>Unclassified Cookies (15) <u>Details</u></span>
+                  <span class="item-EN__color">Unclassified Cookies (15) <u>Details</u></span>
                   <span
                     >These are cookies that have not yet been categorized. We
                     are in the process of classifying these cookies with the
@@ -1185,8 +1204,8 @@
             <div
               class="age-btn cookies-btn cookies-btn__EN cookies-preferences-btn"
             >
-              <button onclick="handleOK()">decline</button>
-              <button onclick="handleOK()">accept</button>
+              <button class="btn__en-bg" onclick="handleOK()">decline</button>
+              <button class="btn__en-bg" onclick="handleOK()">accept</button>
             </div>
           </div>
         </div>
