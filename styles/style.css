@@ -1386,13 +1386,13 @@ footer {
   border-bottom: 1px solid #454545;
 }
 .section4-container-block__looking-premises p {
-  font-family: "FuturaPTM", sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 400;
   line-height: 26px; /* 130% */
   max-width: 455px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.01em;
 }
 .section4-container-block__looking-premises h5 {
   text-align: center;
@@ -1653,12 +1653,12 @@ p.section3-content-p__loyalty-program {
 .section3-content-container-block__loyalty-program p {
   max-width: 245px;
   text-align: center;
-  font-family: "FuturaPTM", sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 400;
   line-height: 26px; /* 130% */
-  letter-spacing: 0.2px;
+  letter-spacing: 0.01em;
 }
 .section3-content-container-blocks__loyalty-program {
   display: flex;
@@ -1700,14 +1700,14 @@ p.section3-content-p__loyalty-program {
   width: 25%;
   height: 108px;
   display: flex;
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   align-items: center;
   justify-content: center;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 450;
   line-height: 26px; /* 130% */
-  letter-spacing: 0.6px;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   border: 1px solid #454545;
   border-left: none;
@@ -2625,13 +2625,13 @@ p.section3-content-p__loyalty-program {
   text-transform: uppercase;
 }
 .section4-container-block__vacancy ul li {
-  font-family: "FuturaPTM", sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 400;
   line-height: 26px; /* 130% */
   list-style-type: unset;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.01em;
 }
 .section4-container-block__vacancy ul {
   width: 891px;
@@ -2712,7 +2712,7 @@ p.section3-content-p__loyalty-program {
   font-style: normal;
   font-weight: 450;
   line-height: 26px; /* 130% */
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 .section4-container-block__careeer {
   display: flex;
@@ -2929,8 +2929,8 @@ p.section3-content-p__loyalty-program {
 }
 .section3-img2__catering {
   position: absolute;
-  right: 23px;
-  top: 400px;
+  right: 19px;
+  top: 447px;
   z-index: 9999999999;
   width: 10%;
 }
@@ -3123,7 +3123,7 @@ p.section3-content-p__loyalty-program {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 450;
@@ -3213,7 +3213,7 @@ p.section3-content-p__loyalty-program {
   align-items: center;
   border-radius: 20px;
   background: #dfdfdf;
-  letter-spacing: 1px;
+  letter-spacing: 0.05em;
   width: 212px;
   height: 40px;
   text-transform: uppercase;
@@ -3497,7 +3497,7 @@ p.section3-content-p__loyalty-program {
   justify-content: center;
   text-align: center;
   border-right: 1px solid #454545;
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 450;
@@ -3723,7 +3723,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-style: normal;
   font-weight: 450;
   line-height: 20px;
-  letter-spacing: -0.52px;
+  letter-spacing: 0.05em;
   display: flex;
   width: 160px;
   height: 40px;
@@ -4237,21 +4237,22 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 .section7-container-block-mob-top__catering > div > p {
   color: #454545;
-  font-family: Futura PT, sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   text-align: left;
   line-height: 24px; /* 133.333% */
-  letter-spacing: 0.18px;
+  letter-spacing: 0.01em;
+      text-transform: math-auto;
 }
 .section7-container-block-mob-top__catering > div > span {
-  font-family: Futura PT, sans-serif;
+   font-family: "FuturaPT", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 133.333% */
-  letter-spacing: 0.18px;
+  letter-spacing: 0.01em;
 }
 .section7-container-block-mob__catering {
   display: none;
@@ -4262,12 +4263,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   gap: 10px;
 }
 .section7-container-block-mob-bottom-left-part__catering span {
-  font-family: Futura PT, sans-serif;
+   font-family: "FuturaPT", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 133.333% */
-  letter-spacing: 0.18px;
+   letter-spacing: 0.01em;
 }
 
 .bankets__wrapper {
@@ -4528,7 +4529,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     transition-duration: 0.4s !important;
   }
 }
-
+.swiper-wrapper {
+  gap: 60px;
+}
 .HeroScroll__help {
   position: absolute;
   left: 0;
@@ -5149,7 +5152,7 @@ body .galleryAnim .galleryAnim__fraction {
   letter-spacing: 0.18px;
 }
 .section6-container-block-top-left__career p {
-  font-family: "Futura PT", sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -5251,12 +5254,12 @@ body .galleryAnim .galleryAnim__fraction {
 }
 .modal-history-content-top p {
   text-align: center;
-  font-family: "Futura PT", sans-serif;
+  font-family: "Futura PTM", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 450;
   line-height: 26px; /* 130% */
-  letter-spacing: 0.6px;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 .modal-history-content {
@@ -5287,7 +5290,7 @@ body .galleryAnim .galleryAnim__fraction {
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 130% */
-  letter-spacing: 0.2px;
+  letter-spacing: 0.01em;
 }
 .modal-history-content-block {
   padding: 20px;
@@ -5484,12 +5487,12 @@ body .galleryAnim .galleryAnim__fraction {
   left: 284px;
 }
 .section-map-top-left__franchise {
-  font-family: Futura PT, sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 450;
   line-height: 26px; /* 130% */
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
   text-transform: uppercase;
 }
 .section-map-top-right__franchise {
@@ -5772,12 +5775,12 @@ header {
 }
 .panel-block2-top__rent-hookahs span {
   text-align: center;
-  font-family: Futura PT, sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 133.333% */
-  letter-spacing: 0.18px;
+  letter-spacing: 0.01em;
   padding-bottom: 24px;
 }
 .panel-block2-top__rent-hookahs a {
@@ -5789,12 +5792,12 @@ header {
   justify-content: center;
   width: 152px;
   height: 40px;
-  font-family: Futura PT, sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 450;
   line-height: 18px; /* 128.571% */
-  letter-spacing: 0.42px;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 .panel-block2-top__rent-hookahs {
@@ -5819,12 +5822,12 @@ header {
   text-transform: uppercase;
 }
 .panel-block2-bottom__rent-hookahs span {
-  font-family: "FuturaPTM", sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 400;
   line-height: 24px; /* 133.333% */
-  letter-spacing: 0.18px;
+  letter-spacing: 0.01em;
 }
 .panel-block2-bottom__rent-hookahs {
   padding-top: 120px;

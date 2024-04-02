@@ -20,6 +20,7 @@
   flex-direction: column;
   background: #0d0d0d;
   z-index: 1;
+  overflow: auto;
 }
 .sertificate__backdrop {
   height: 110vh;
@@ -53,9 +54,9 @@ span.sertificate__action-caption,
 .sertificate__actions > div > span {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 26px;
-  letter-spacing: 2px;
+  letter-spacing: 0.01em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -141,11 +142,11 @@ span.sertificate__action-caption,
   padding: 20px;
 }
 .sertificate__footer > button {
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
-  letter-spacing: -1px;
+  letter-spacing: 0.05em;
   text-align: center;
 }
 .sertificate__footer > button:nth-last-child(2) {
@@ -176,9 +177,9 @@ span.sertificate__action-caption,
 .sertificate__item-stepTwo > span {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 26px;
-  letter-spacing: -1px;
+  letter-spacing: 0.01em;
   text-align: left;
   text-transform: uppercase;
 }

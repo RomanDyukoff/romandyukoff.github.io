@@ -59,6 +59,14 @@
 .restaurant-page__blockplace-img {
   padding-top: 40px;
 }
+.section4-text__restoran > br {
+  display: none;
+}
+@media (min-width: 1051px) {
+  .section4-text__restoran > br {
+    display: block;
+  }
+}
 @media (max-width: 1050px) {
   .restaurant-page__imgOne {
     width: 482px;

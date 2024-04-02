@@ -37,6 +37,9 @@
     padding-top: 18px;
     gap: 2px;
   }
+  .section4-container__contacts {
+    flex-direction: column;
+  }
   .section2__contacts {
     padding-bottom: 63px !important;
   }

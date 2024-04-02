@@ -323,7 +323,7 @@
     flex-basis: auto;
   }
   .section12__catering {
-    height: 43rem;
+    height: 34rem;
   }
 
   .section-map-top-right__franchise span,
@@ -463,9 +463,9 @@
     font-family: "FuturaPT", sans-serif;
     color: #3f3f3fbb;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: min(322px, 34vw);
-    letter-spacing: 7.65px;
+    letter-spacing: 0.175em;
     text-transform: uppercase;
   }
   .bg-laptop p {
@@ -578,10 +578,9 @@
     font-family: "FuturaPT", sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     max-width: 399px;
     line-height: 24px; /* 133.333% */
-    letter-spacing: 0px;
   }
   .section3-container-block__bankets img {
     width: 32%;
@@ -778,31 +777,32 @@
     margin-top: 40px;
     border-radius: 20px;
     background: #dfdfdf;
-    font-family: Futura PT;
+    font-family: "FuturaPTM", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 450;
     line-height: 18px; /* 128.571% */
-    letter-spacing: 0.42px;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
   }
   .section7-container-block-mob-content-part__catering span {
-    font-family: "FuturaPTMedium", sans-serif !important;
+    font-family: "FuturaPT", sans-serif !important;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 133.333% */
-    letter-spacing: 0.18px;
+    letter-spacing: 0.01em;
   }
   .section7-container-block-mob-content-part__catering p {
-    font-family: "FuturaPTMedium", sans-serif !important;
+    font-family: "FuturaPT", sans-serif !important;
     font-size: 18px;
     margin-top: 0;
     color: #454545;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 133.333% */
-    letter-spacing: 0.18px;
+    letter-spacing: 0.01em;
+    text-transform: math-auto;
   }
   .section7-container-block-mob-btn__catering2 {
     margin-top: 24px;
@@ -967,10 +967,7 @@
   .section6-container__restoran {
     gap: 188px;
   }
-  .section6-container-block-text__restoran p {
-    font-size: 12px !important;
-    line-height: 16px !important; /* 133.333% */
-  }
+
   .section6-container__restoran2 {
     gap: 80px;
     flex-direction: column;
@@ -3267,7 +3264,7 @@
     padding-bottom: 320px;
   }
   .section3-container-block__secret-assistants2 {
-    width: 48%;
+    width: 25%;
   }
   .section3-container-block__secret-assistants2-none {
     display: none;
@@ -3677,10 +3674,7 @@
   .section2-container__franchise img {
     top: -48% !important;
   }
-  .bankets__h1 > div {
-    width: 569px;
-    height: 737px;
-  }
+
   .bankets__h1 > h1 {
     max-width: 430px;
     font-size: 40px;
@@ -5480,6 +5474,10 @@
   .burger__footer > button {
     max-width: 335px;
     width: 100%;
+  }
+  .section6-container-block-text__restoran p {
+    font-size: 12px !important;
+    line-height: 16px !important; /* 133.333% */
   }
 }
 

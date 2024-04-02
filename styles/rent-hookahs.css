@@ -414,6 +414,9 @@ button.controller-form {
   .section3-container-block__rent-hookahs {
     flex: 1 0 33.333%;
   }
+  .colba {
+    padding: 0 0 0 40px !important;
+  }
   .panel-block3__rent-hookahs > .rent-page__btn > svg,
   .panel-block2__rent-hookahs > .rent-page__btn > svg {
     width: 48px;

@@ -81,6 +81,23 @@
   flex-direction: column;
   gap: 20px;
 }
+.cookies-title > h3 {
+  font-family: "FuturaPTM", sans-serif;
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.cookies-title > span {
+  font-family: "FuturaPT", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
 .cookies-title > span > a {
   text-decoration: underline;
 }

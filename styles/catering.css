@@ -68,7 +68,7 @@ p.catering-page__general-p {
 }
 .catering__page-new__wrapper-ultra {
   padding: 0 40px 0 20px;
-  gap: 19%;
+  gap: 17%;
 }
 .catering__page-new__item-ultra > span,
 .catering__page-new__item-ultra > p,
@@ -81,11 +81,18 @@ p.catering-page__general-p {
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: -1px;
+  letter-spacing: 0.01em;
   text-align: left;
   color: #454545;
   text-transform: none;
 }
+.catering__page-new__item-ultra > p,
+.catering__page-new__item-ultra-last > p,
+.catering__page-new__item-last > p,
+.catering__page-new__item > p {
+  letter-spacing: 0.01em !important;
+}
+
 .catering__page-new__items {
   display: flex;
   gap: 20px;
@@ -133,7 +140,7 @@ p.catering-page__general-p {
   font-weight: 450;
   line-height: 20px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.05em;
   text-align: center;
   margin-top: 33px;
 }
@@ -294,6 +301,8 @@ p.catering-page__general-p {
 }
 .catering-page__container-notfs p {
   font-weight: 400;
+  font-family: "FuturaPT", sans-serif;
+  letter-spacing: 0.01em;
 }
 .tooltip {
   display: none;
@@ -314,6 +323,9 @@ p.catering-page__general-p {
   text-transform: math-auto;
   top: 16%;
 }
+.catering__actions-br > br {
+  display: none;
+}
 @media (min-width: 1151px) {
   .catering__page-hover {
     position: relative;
@@ -325,6 +337,9 @@ p.catering-page__general-p {
     align-items: center;
     gap: 30px;
     top: 7%;
+  }
+  .catering__actions-br > br {
+    display: block;
   }
   .catering__page-hover:hover > .catering__page-ultra {
     gap: 35px !important;
@@ -341,6 +356,10 @@ p.catering-page__general-p {
 @media (max-width: 1150px) {
   .catering-page__container-ultra-middle {
     display: block !important;
+  }
+  .catering__page-new__wrapper-ultra {
+    justify-content: inherit;
+    gap: 5%;
   }
   .catering-page__container-ultra-middle
     > .catering__page-new__item-ultra
@@ -372,6 +391,15 @@ p.catering-page__general-p {
   div.catering-page__container-ultra-middle {
     padding-top: 131px;
   }
+  .catering-page__containerm3 {
+    justify-content: space-between;
+    flex: 1 1 auto;
+  }
+  div > p.section7__secret-assistants-caption__form {
+    font-size: 60px !important;
+    line-height: 66px !important;
+    max-width: 100% !important;
+  }
 }
 @media (max-width: 1050px) {
   .catering-page__wrapper {
@@ -398,8 +426,8 @@ p.catering-page__general-p {
     height: 100%;
   }
   .catering-page__container-h1 > h1 {
-    font-size: min(60px, 3.15vw) !important;
-    line-height: min(66px, 3.48vw) !important;
+    font-size: 60px !important;
+    line-height: 66px !important;
     max-width: 730px;
   }
   .catering__page-container-imgLast {
@@ -424,14 +452,14 @@ p.catering-page__general-p {
     border-right: none !important;
   }
   .section11-p__catering {
-    font-size: min(60px, 3.15vw);
-    line-height: min(66px, 3.48vw);
+    font-size: 60px;
+    line-height: 66px;
     padding-top: 240px !important;
     padding-bottom: 281px !important;
     letter-spacing: -0.68px;
   }
   .catering-page__form {
-    height: 1072px !important;
+    height: 1111px !important;
     gap: 85px;
   }
 }
