@@ -4529,9 +4529,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     transition-duration: 0.4s !important;
   }
 }
-.swiper-wrapper {
-  gap: 60px;
-}
+
 .HeroScroll__help {
   position: absolute;
   left: 0;

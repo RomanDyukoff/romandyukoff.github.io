@@ -62,6 +62,9 @@
 .section4-text__restoran > br {
   display: none;
 }
+.slider-swiper__container-stories {
+  gap: 60px;
+}
 @media (min-width: 1051px) {
   .section4-text__restoran > br {
     display: block;
