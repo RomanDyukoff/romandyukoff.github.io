@@ -58,4 +58,16 @@ h1.secret-assistants-size {
   .looking-premises-page__block1-br br {
     display: block;
   }
+  .looking-premises-page__block2-title-ls > br {
+    display: none !important;
+  }
+}
+@media (max-width: 500px) {
+  .looking-premises-page__imgSR {
+    width: 128px !important;
+    height: 165px !important;
+  }
+  .looking-premises-page__form-wrapper > p {
+    margin-bottom: 0;
+  }
 }

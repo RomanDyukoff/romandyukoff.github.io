@@ -70,3 +70,14 @@ text-align: center;
     transition: 0.3s;
   }
 }
+ .section4__banketsss{
+    display: none;
+  }
+@media (max-width: 500px) {
+   .section4__banketss{
+    display: none;
+  }
+  .section4__banketsss{
+    display: block;
+  }
+}

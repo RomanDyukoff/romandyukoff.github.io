@@ -105,14 +105,10 @@ h3 {
     display: block;
   }
 }
-@media (max-width: 1805px) {
-  .section2-container__franchise > img {
-    top: -67%;
-  }
-}
+
 @media (max-width: 1355px) {
   .section2-container__franchise > img {
-    top: -91%;
+    top: -56%;
   }
 }
 @media (max-width: 1151px) {
@@ -173,5 +169,8 @@ h3 {
     width: 100%;
     font-size: 32px;
     line-height: 32px;
+  }
+  .section6-container-block-part__franchise{
+    flex-direction: column !important;
   }
 }

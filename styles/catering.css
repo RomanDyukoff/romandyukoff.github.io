@@ -68,7 +68,7 @@ p.catering-page__general-p {
 }
 .catering__page-new__wrapper-ultra {
   padding: 0 40px 0 20px;
-  gap: 17%;
+  justify-content: space-between;
 }
 .catering__page-new__item-ultra > span,
 .catering__page-new__item-ultra > p,
@@ -78,9 +78,9 @@ p.catering-page__general-p {
 .catering__page-new__item-last > p,
 .catering__page-new__item > p {
   font-family: "FuturaPT", sans-serif;
-  font-size: 20px;
+  font-size: min(20px, 1.24vw);
   font-weight: 400;
-  line-height: 26px;
+  line-height: min(26px, 1.44vw);
   letter-spacing: 0.01em;
   text-align: left;
   color: #454545;
@@ -326,6 +326,11 @@ p.catering-page__general-p {
 .catering__actions-br > br {
   display: none;
 }
+@media (max-width: 1520px) {
+  .catering__page-new__btn {
+    margin-top: 0px;
+  }
+}
 @media (min-width: 1151px) {
   .catering__page-hover {
     position: relative;
@@ -478,9 +483,17 @@ p.catering-page__general-p {
   span.catering-page__container-ultra-mb {
     padding-bottom: 0;
   }
+  div > p.section7__secret-assistants-caption__form{
+  font-size: 32px !important;
+    line-height: 32px !important;
+    margin-bottom: 0 !important;
+  }
 }
 
 @media (max-width: 475px) {
+  p.catering-page__general-p {
+  padding-top: 75px !important;
+}
   .catering-page__wrapper {
     padding-top: 177px !important;
     padding-bottom: 14px !important;
@@ -564,4 +577,8 @@ p.catering-page__general-p {
   div.catering-page__container-line3 {
     right: 62px !important;
   }
+  .section7-container-block__catering span{
+    text-transform: none !important;
+  }
+  
 }

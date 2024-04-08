@@ -22,7 +22,7 @@
   padding: 0;
 }
 .career__page-img {
-  width: 296px;
+  width: 296px ;
   height: 385px;
 }
 .career__page-img > img {
@@ -61,6 +61,15 @@
 .career__page-container-form-br br {
   display: none;
 }
+div.career__page-form > p{
+  font-size: 40px !important;
+  line-height: 48px !important;
+}
+@media (min-width: 1051px) {
+  .career__page-form{
+    max-width: 100% !important;
+  }
+}
 @media (min-width: 1551px) {
   .career__page-container-rp {
     padding-left: 27px;
@@ -80,4 +89,25 @@
   .ds-block{
     display: none;
   }
+}
+@media (max-width: 1050px) {
+  .career__page-form{
+    max-width: 690px !important;
+  }
+    div.career__page-img {
+  width: 233px !important;
+  height: 300px !important;
+  margin-top: 16px !important;
+}
+div.career__page-form > p{
+  font-size: 32px !important;
+  line-height: 32px !important;
+}
+}
+@media (max-width: 400px) {
+  div.career__page-img {
+  width: 128px !important;
+  height: 165px !important;
+  margin-top: 16px !important;
+}
 }

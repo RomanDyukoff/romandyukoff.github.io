@@ -348,7 +348,7 @@
   opacity: 0;
 }
 .colba {
-  padding: 0 0 0 40px;
+  padding: 0 0 0 40px !important;
   justify-content: space-between;
 }
 .rent-page__container-block4 {
@@ -395,6 +395,7 @@ button.controller-form {
   .section3-container-block__rent-hookahs {
     flex: 1 0 50%;
     padding: 0;
+    justify-content: space-around;
   }
   .section3-container-block__rent-hookahs:nth-child(3) {
     border-left: none;
@@ -414,9 +415,7 @@ button.controller-form {
   .section3-container-block__rent-hookahs {
     flex: 1 0 33.333%;
   }
-  .colba {
-    padding: 0 0 0 40px !important;
-  }
+  
   .panel-block3__rent-hookahs > .rent-page__btn > svg,
   .panel-block2__rent-hookahs > .rent-page__btn > svg {
     width: 48px;

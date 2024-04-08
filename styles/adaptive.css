@@ -95,6 +95,10 @@
   .section2-img1__looking-premises {
     top: 364px;
   }
+  .section2-container-block-middle__restaurant-alls h5 {
+    
+    max-width: 450px;
+  }
 }
 
 @media (max-width: 1550px) {
@@ -168,10 +172,15 @@
 }
 @media (max-width: 1370px) {
   .section6-content__loyalty-program {
-    gap: 80px 11vw;
+    gap: 80px 7vw;
   }
-  .section2-container-block-middle__restaurant-all h5 {
+  .section2-container-block-middle__restaurant-alls h5 {
     font-size: 35px;
+    max-width: 350px;
+  }
+    .section2-container-block-middle__restaurant-all h5 {
+    font-size: 35px;
+   
   }
   .section2-container-block-left-top__restaurant-all p {
     font-size: 18px;
@@ -2510,7 +2519,7 @@
     line-height: 16px;
   }
   .custom-radio + label {
-    font-size: 12px;
+    font-size: min(12px, 2.2vw) !important;
     line-height: 16px; /* 133.333% */
   }
   .section7-inputs__secret-assistants button {
@@ -2624,7 +2633,7 @@
   .section7-container__secret-assistants p {
     font-size: max(32px, 1.667vw) !important;
     line-height: max(32px, 1.667vw) !important; /* 100% */
-    letter-spacing: 1px;
+    letter-spacing: 0.03rem;
   }
   /*title big*/
   .section4-kamen1__bankets {
@@ -2829,7 +2838,7 @@
   }
   .input-tel__secret-assistants,
   .input-city__secret-assistants {
-    width: 47.5%;
+    width: 47%;
   }
   .section3-container-block__bankets:nth-child(4) {
     border-bottom: 1px solid #454545;
@@ -2902,7 +2911,10 @@
   .section10-container-block__catering:last-child {
     border-bottom: 1px solid #454545;
   }
-
+.section2-container-block-middle__restaurant-alls h5 {
+    
+    max-width: 100%
+  }
   .section-map-top-right__franchise span,
   .section-map-top-right__franchise p,
   .section-map-top-left__franchise,
@@ -3322,7 +3334,6 @@
     margin-top: 40px;
     border-radius: 20px;
     background: #dfdfdf;
-    font-family: Futura PT;
     font-size: 14px;
     font-style: normal;
     font-weight: 450;
@@ -4726,7 +4737,7 @@
   .franchise__container {
     border: none;
 
-    height: 450px;
+    height: 360px;
     justify-content: flex-end;
     padding-bottom: 80px;
   }
@@ -4970,7 +4981,7 @@
   }
   .input-tel__secret-assistants,
   .input-city__secret-assistants {
-    width: 47.5%;
+    width: 47%;
   }
   .section3-container-block__bankets:nth-child(4) {
     border-bottom: 1px solid #454545;
@@ -4985,6 +4996,9 @@
   }
   .section6-content-block__loyalty-program:not([data-mobile="true"]) {
     display: none;
+  }
+  .section2-container-block-middle__restaurant-all{
+    padding: 0 0 75px 0;
   }
   .secret-assistants__fs h1 {
     font-size: 28px !important;
@@ -5320,7 +5334,7 @@
     padding: 22px 36px;
   }
   .franchise-page__img {
-    width: 128px;
+    width: 128px !important;
     height: 165px;
   }
   .franchise-page__block-open {
@@ -5478,6 +5492,17 @@
   .section6-container-block-text__restoran p {
     font-size: 12px !important;
     line-height: 16px !important; /* 133.333% */
+  }
+    .section4-container__franchise p,
+  .section2-container__franchise p,
+  .section2-container-bottom-block__franchise p,
+  .section2-container__loyalty-program p,
+  .section1-title__contacts,
+  .section2-text__career,
+  .section2-text__career,
+  .section5-container__bankets-second p,
+  .section7-container__secret-assistants p {
+    letter-spacing: -0.1rem;
   }
 }
 

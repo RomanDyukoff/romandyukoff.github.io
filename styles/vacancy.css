@@ -7,3 +7,9 @@
 .vacancy__page-form > p {
   letter-spacing: -1px;
 }
+@media (min-width: 801px) {
+  div.universal__page > p{
+    font-size: 40px !important;
+    line-height: 48px !important;
+  }
+}

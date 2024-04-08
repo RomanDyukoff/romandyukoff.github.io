@@ -36,6 +36,11 @@
     display: block;
   }
 }
+@media (max-width: 800px) {
+  .footer-bottom-social{
+    padding-right: 0;
+  }
+}
 @media (max-width: 475px) {
   div.page-main__line2 {
     left: 70px !important;

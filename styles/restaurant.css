@@ -135,6 +135,9 @@
     width: 255px;
     height: 330px;
   }
+  .slider-swiper__container-stories{
+    gap: 118px;
+  }
   .section2__restoran-pt {
     padding-bottom: 67px !important;
   }
