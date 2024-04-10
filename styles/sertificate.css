@@ -299,6 +299,9 @@ h1.sertificate-page__main-h1 {
   .section3__sertificate {
     padding-bottom: 20.5%;
   }
+  .section2-container__sertificate-mob > p >br{
+    display: none;
+  }
 }
 
 @media (max-width: 580px) {
@@ -355,6 +358,7 @@ h1.sertificate-page__main-h1 {
     font-size: 40px;
     line-height: 40px;
     max-width: 100% !important;
+    letter-spacing: -0.03em;
   }
   .sertificate-page__wrapper {
     padding-top: 186px !important;

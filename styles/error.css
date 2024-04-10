@@ -48,14 +48,14 @@
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  max-width: 401px;
+  max-width: 460px;
   width: 100%;
   position: relative;
   z-index: 5;
   color: #dfdfdf;
 }
 .error-desc > span {
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 20px;
   font-weight: 450;
   line-height: 26px;
@@ -68,7 +68,7 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: -2px;
+  letter-spacing: 0.01em;
   text-align: center;
 }
 .error-desc > p > a {
@@ -76,7 +76,7 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: -2px;
+  letter-spacing: 0.01em;
   text-align: center;
   text-decoration: underline;
   color: #dfdfdf;
@@ -84,4 +84,21 @@
 .footer {
   border-top: 1px solid #454545;
   height: 80px;
+}
+
+@media (max-width: 475px) {
+  .error-desc > span {
+    font-size: 12px;
+
+    line-height: 26px;
+    letter-spacing: 0.03em;
+  }
+  .error-desc > p {
+    font-size: 12px;
+    line-height: 15.6px;
+    letter-spacing: 0.01em;
+  }
+  .error-img{
+    width: 165px;
+  }
 }

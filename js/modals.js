@@ -37,13 +37,13 @@ const handleNot = () => {
       : el.classList.add("isNot")
   );
 };
-title[0].style.color = "#dfdfdf";
+title[0].style.color = "#454545";
 radio.forEach((el, i) =>
   el.addEventListener("click", () => {
     if (el.checked) {
-      title[i - 1].style.color = "#dfdfdf";
-    } else {
       title[i - 1].style.color = "#454545";
+    } else {
+      title[i - 1].style.color = "#dfdfdf";
     }
   })
 );

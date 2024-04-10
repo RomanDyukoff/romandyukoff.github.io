@@ -96,7 +96,6 @@
     top: 364px;
   }
   .section2-container-block-middle__restaurant-alls h5 {
-    
     max-width: 450px;
   }
 }
@@ -178,9 +177,8 @@
     font-size: 35px;
     max-width: 350px;
   }
-    .section2-container-block-middle__restaurant-all h5 {
+  .section2-container-block-middle__restaurant-all h5 {
     font-size: 35px;
-   
   }
   .section2-container-block-left-top__restaurant-all p {
     font-size: 18px;
@@ -273,6 +271,12 @@
   .section7-container__secret-assistants p {
     font-size: 60px !important;
     line-height: 66px !important; /* 120% */
+  }
+  .container-ds-none{
+    display: flex;
+  }
+  .container-ds-none-s{
+    display: none;
   }
   .franchise-page__desc > p {
     font-size: 60px !important;
@@ -452,8 +456,8 @@
     padding-bottom: 184px;
   }
   .swiper-slide-main img {
-    width: 233px;
-    height: 300px;
+    width: 233px !important;
+    height: 300px !important;
   }
   .section7-container-inputs__restoran {
     padding-bottom: 120px;
@@ -1551,6 +1555,33 @@
     font-size: 28px;
     line-height: 32px; /* 114.286% */
   }
+  .footer-bottom-social {
+    padding-right: 0;
+  }
+  .container-two {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer-bottom-left-mob{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .footer-container-mob{
+    align-items: flex-start !important;
+    gap: 30px !important;
+    padding-bottom: 0 !important;
+  }
+.footer-bottom-left-two-pol-mob{
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  width: 100%;
+}
+.footer-bottom-left-two-right-pol-mob{
+  flex-direction: row !important;
+ gap: 30px;
+  width: 100%;
+}
   .secret-assistants_h1 {
     font-size: 32px;
     line-height: 32px;
@@ -1644,9 +1675,7 @@
     font-size: 28px;
     line-height: 32px; /* 114.286% */
   }
-  .section3-container-left-block__sertificate {
-    width: 50%;
-  }
+
   .panel-blocks-form-select__rent-hookahs {
     width: 47%;
   }
@@ -1938,8 +1967,8 @@
     padding-top: 100px;
   }
   .swiper-slide-main img {
-    width: 165px;
-    height: 213px;
+    width: 165px !important;
+    height: 213px !important;
   }
   .swiper-button-next,
   .swiper-button-prev {
@@ -2911,9 +2940,8 @@
   .section10-container-block__catering:last-child {
     border-bottom: 1px solid #454545;
   }
-.section2-container-block-middle__restaurant-alls h5 {
-    
-    max-width: 100%
+  .section2-container-block-middle__restaurant-alls h5 {
+    max-width: 100%;
   }
   .section-map-top-right__franchise span,
   .section-map-top-right__franchise p,
@@ -3042,8 +3070,8 @@
     padding-bottom: 184px;
   }
   .swiper-slide-main img {
-    width: 233px;
-    height: 300px;
+    width: 233px !important;
+    height: 300px !important;
   }
   .section7-container-inputs__restoran {
     padding-bottom: 120px;
@@ -4014,8 +4042,8 @@
     height: 100px;
   }
   .swiper-slide-main img {
-    width: 165px;
-    height: 213px;
+    width: 165px !important;
+    height: 213px !important;
   }
   .swiper-button-next,
   .swiper-button-prev {
@@ -4990,14 +5018,14 @@
     padding-top: 10px;
   }
   .section1-container__secret-assistants h1 {
-    max-width: 245px;
+    max-width: 100%;
     font-size: 32px !important;
     line-height: 32px !important;
   }
   .section6-content-block__loyalty-program:not([data-mobile="true"]) {
     display: none;
   }
-  .section2-container-block-middle__restaurant-all{
+  .section2-container-block-middle__restaurant-all {
     padding: 0 0 75px 0;
   }
   .secret-assistants__fs h1 {
@@ -5098,7 +5126,6 @@
     letter-spacing: 0 !important;
   }
   .bankets__h1 > h1 {
-    max-width: 290px;
     font-size: 32px;
     line-height: 32px;
   }
@@ -5283,7 +5310,7 @@
     padding-bottom: 77px;
   }
   .section1__franchise {
-    padding-bottom: 40px;
+    padding-bottom: 40px !important;
   }
   .section2-container__franchise {
     margin-top: 67px !important;
@@ -5493,7 +5520,7 @@
     font-size: 12px !important;
     line-height: 16px !important; /* 133.333% */
   }
-    .section4-container__franchise p,
+  .section4-container__franchise p,
   .section2-container__franchise p,
   .section2-container-bottom-block__franchise p,
   .section2-container__loyalty-program p,
@@ -5504,6 +5531,15 @@
   .section7-container__secret-assistants p {
     letter-spacing: -0.1rem;
   }
+  .footer-bottom-left-two-right-pol-mob > p,
+    .footer-container-mob > .footer-container-left > div > a {
+  font-size: 12px;
+  line-height: 16px;
+}
+.footer-container-mob > .footer-vatieble-two__left > div > a {
+  font-size: 18px;
+  line-height: 20px;
+}
 }
 
 @media (max-width: 405px) {
@@ -5621,5 +5657,10 @@
   }
   .section3-container-block__rent-hookahs {
     border-left: none;
+  }
+}
+@media (max-width: 800px) {
+  .dd-ss-none{
+    display: none;
   }
 }

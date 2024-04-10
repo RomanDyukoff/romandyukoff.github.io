@@ -516,11 +516,19 @@ p.catering-page__general-p {
     letter-spacing: -2px;
     max-width: 345px !important;
   }
+  .catering-page__container-h1{
+    gap: 5px;
+  }
+  .catering-page__container-mainCont{
+    padding-top: 0;
+  }
   div.catering-page__general {
     width: 128px !important;
     height: 165px;
   }
-
+p.catering-page__general-p{
+  margin-bottom: 0 !important;
+}
   .catering-page__container-h1 > h1 {
     font-size: 32px !important;
     line-height: 32px !important;

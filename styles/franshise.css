@@ -153,6 +153,21 @@ h3 {
     padding-bottom: 10px;
   }
 }
+@media (max-width: 800px) {
+  .section1__franchise {
+    padding-bottom: 67px !important;
+  }
+  .section3-container-block__franchise {
+    width: 255px !important;
+    height: 165px !important;
+}
+.franchise-page-container__blockImg {
+    padding-top: 0;
+}
+.franchise-page__container-list > div > p{
+  padding-left: 0;
+}
+}
 @media (max-width: 475px) {
   .franchise-page-swiper__mob {
     max-width: 375px;
@@ -170,7 +185,7 @@ h3 {
     font-size: 32px;
     line-height: 32px;
   }
-  .section6-container-block-part__franchise{
+  .section6-container-block-part__franchise {
     flex-direction: column !important;
   }
 }

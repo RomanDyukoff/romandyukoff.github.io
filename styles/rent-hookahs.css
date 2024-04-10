@@ -467,11 +467,15 @@ button.controller-form {
     border-right: none;
     border-left: none;
   }
+  .colba{
+    padding: 0 !important;
+  }
 }
 @media (max-width: 475px) {
   .section3-container-block__rent-hookahs > img {
     width: 44%;
   }
+  
   .section1__rent-hookahs {
     padding-bottom: 13px !important;
     padding-top: 168px !important;

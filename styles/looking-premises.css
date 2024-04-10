@@ -62,11 +62,14 @@ h1.secret-assistants-size {
     display: none !important;
   }
 }
-@media (max-width: 500px) {
-  .looking-premises-page__imgSR {
+@media (max-width: 900px) {
+ .looking-premises-page__imgSR {
     width: 128px !important;
     height: 165px !important;
   }
+}
+@media (max-width: 500px) {
+ 
   .looking-premises-page__form-wrapper > p {
     margin-bottom: 0;
   }

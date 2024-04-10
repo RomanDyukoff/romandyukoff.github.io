@@ -58,6 +58,9 @@ button {
   color: #0d0d0d;
   transition: 0.5s;
 }
+h1 {
+  margin: 0 !important;
+}
 .section2-block__contacts button:hover,
 .form-send-btn:hover,
 .section8-link__restoran:hover,
@@ -4244,10 +4247,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   text-align: left;
   line-height: 24px; /* 133.333% */
   letter-spacing: 0.01em;
-      text-transform: math-auto;
+  text-transform: math-auto;
 }
 .section7-container-block-mob-top__catering > div > span {
-   font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -4263,12 +4266,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   gap: 10px;
 }
 .section7-container-block-mob-bottom-left-part__catering span {
-   font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 133.333% */
-   letter-spacing: 0.01em;
+  letter-spacing: 0.01em;
 }
 
 .bankets__wrapper {
@@ -5252,7 +5255,7 @@ body .galleryAnim .galleryAnim__fraction {
 }
 .modal-history-content-top p {
   text-align: center;
-  font-family: "Futura PTM", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 450;
@@ -5275,7 +5278,7 @@ body .galleryAnim .galleryAnim__fraction {
 }
 .modal-history-content-block-top-part span {
   color: #454545;
-  font-family: "Futura PT", sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -5283,7 +5286,7 @@ body .galleryAnim .galleryAnim__fraction {
   letter-spacing: 0.2px;
 }
 .modal-history-content-block-top-part p {
-  font-family: "Futura PT", sans-serif;
+  font-family: "FuturaPT", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -6534,5 +6537,72 @@ header {
   cursor: pointer;
 }
 .tooltip__hidden {
+  display: none;
+}
+.footer-vatieble-two__call {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-vatieble-two__call > a {
+  font-family: "FuturaPT", sans-serif;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 27.09px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-decoration: none;
+}
+.footer-vatieble-two__left > span {
+  font-family: "FuturaPT", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-decoration: none;
+}
+.footer-bottom-two__call {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 16px;
+}
+
+.footer-bottom-left-two-pol > a {
+  font-size: 16px;
+  line-height: 20px;
+}
+.container-two {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container-mob {
+  flex-direction: column;
+  padding-bottom: 0;
+}
+.footer-bottom-two__call-mob {
+  flex-direction: column;
+  gap: 68px;
+  padding-bottom: 0;
+  align-items: flex-start;
+}
+.footer-bottom-left-two-pol-mob {
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.footer-container-mob > .footer-container-left > div > a {
+  font-size: 18px;
+  line-height: 20px;
+}
+.footer-container-mob > .footer-vatieble-two__left > div > a {
+  font-size: 32px;
+  line-height: 32px;
+}
+.footer-bottom-left-mob {
+  display: none;
+}
+.container-ds-none {
   display: none;
 }
