@@ -97,17 +97,24 @@ div.career__page-form > p{
     div.career__page-img {
   width: 233px !important;
   height: 300px !important;
-  margin-top: 16px !important;
+
 }
 div.career__page-form > p{
   font-size: 32px !important;
   line-height: 32px !important;
 }
+.career__page-container-bb{
+  border-top: none !important;
+  border-bottom: none !important;
 }
-@media (max-width: 400px) {
+}
+@media (max-width: 475px) {
   div.career__page-img {
   width: 128px !important;
   height: 165px !important;
-  margin-top: 16px !important;
+
+}
+.line-none__centre {
+    height: 100% !important;
 }
 }

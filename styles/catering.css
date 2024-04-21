@@ -488,6 +488,9 @@ p.catering-page__general-p {
     line-height: 32px !important;
     margin-bottom: 0 !important;
   }
+  .section7-container-block__catering{
+    padding: 40px 20px !important;
+  }
 }
 
 @media (max-width: 475px) {
@@ -553,7 +556,7 @@ p.catering-page__general-p{
     padding: 9px 0 !important;
   }
   .section7-container-block__catering {
-    padding: 48px 20px 17px 20px !important;
+      padding: 40px 20px !important;
   }
   .catering-page__content {
     padding: 41px 0 95px 0 !important;
@@ -588,5 +591,13 @@ p.catering-page__general-p{
   .section7-container-block__catering span{
     text-transform: none !important;
   }
-  
+  .section4-container-block__careeer{
+    border-bottom: none !important;
+  }
+  .section4-container-block-part__careeer h3{
+    flex: 1 1 51%;
+  }
+  .tooltip{
+    right: 0;
+  }
 }

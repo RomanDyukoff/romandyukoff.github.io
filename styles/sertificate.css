@@ -49,8 +49,17 @@
 span.sertificate__action-hidden {
   color: #454545;
 }
+span.sertificate__action-caption{
+font-family: "FuturaPTM", sans-serif;
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+}
 .sertificate__step-one > span,
-span.sertificate__action-caption,
+
 .sertificate__actions > div > span {
   font-family: "FuturaPT", sans-serif;
   font-size: 20px;
@@ -144,7 +153,7 @@ span.sertificate__action-caption,
 .sertificate__footer > button {
   font-family: "FuturaPTM", sans-serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 450;
   line-height: 20px;
   letter-spacing: 0.05em;
   text-align: center;

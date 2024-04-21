@@ -13,6 +13,10 @@
   .news__description{
     max-width: 690px;
   }
+  .title-gl{
+    max-width: 630px !important;
+    width: 100%;
+  }
 }
 @media (max-width: 650px) {
 
