@@ -40,6 +40,16 @@
   padding-bottom: 80px !important;
 }
 
+@media (min-width: 2250px) {
+  .section6-content__loyalty-program{
+    gap: 84px 5vw;
+  }
+}
+@media (min-width: 2550px) {
+  .section6-content__loyalty-program{
+    gap: 84px 4vw;
+  }
+}
 @media (max-width: 1050px) {
   .loyalty-program__page-caption {
     padding-top: 220px !important;

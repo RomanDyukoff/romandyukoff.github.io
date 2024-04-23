@@ -1,5 +1,6 @@
 const modalAge = [...window.document.querySelectorAll(".univers__modal")];
 const container = [...window.document.querySelectorAll(".age-container")];
+const windowModal = window.document.querySelector(".cookies-mw__EN");
 const radio = window.document.querySelectorAll(".custom-radio");
 const title = window.document.querySelectorAll(".item-EN__color");
 const cookies__container = [
@@ -8,6 +9,7 @@ const cookies__container = [
 const containerEn = [
   ...window.document.querySelectorAll(".univers__container"),
 ];
+
 window.addEventListener("DOMContentLoaded", () => {
   modalAge[0].classList.remove("univers__hidden");
   window.document.body.style.overflow = "hidden";
@@ -19,8 +21,9 @@ const handleMoreEn = () => {
       ? el.classList.remove("cookies-preferences")
       : el.classList.add("cookies-preferences")
   );
-  window.document.body.style.overflow = "auto";
+  window.document.body.style.overflow = "hidden";
   containerEn[2].classList.add("cookies-preferences-mw");
+  windowModal.style.maxWidth = "90%";
 };
 const handleOK = () => {
   modalAge.forEach((el) =>

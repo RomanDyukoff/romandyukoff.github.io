@@ -31,8 +31,11 @@ document.addEventListener("DOMContentLoaded", () => {
   searchCityMob.parentNode.style.display = "none";
 
   btnMenuHam.addEventListener("click", function () {
-    header.classList.toggle("header-active-bg");
+
+      header.classList.toggle("header-active-bg");
+    tooltipClose.parentNode.classList.add("tooltip__hidden");
   });
+  
   btnMenu.addEventListener("click", function () {
     modalMenu.style.opacity = "1";
     modalMenu.style.zIndex = "999999999999999";

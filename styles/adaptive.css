@@ -5548,6 +5548,10 @@
   font-size: 18px;
   line-height: 20px;
 }
+.burger__search > input::placeholder{
+font-size: 14px;
+
+}
 }
 
 @media (max-width: 405px) {
