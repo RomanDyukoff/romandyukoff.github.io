@@ -90,13 +90,8 @@ ul li {
 }
 body {
   overflow-x: hidden !important;
-  height: 100% !important;
-  overflow-y: auto;
 }
-html{
-  height: 100% !important;
-  overflow: hidden;
-}
+
 html,
 body {
   margin: 0;
