@@ -79,7 +79,7 @@
     padding-top: 16px !important;
   }
   .contacts-page__container {
-    padding: 76px 15px 85px 0 !important;
+    padding: 76px 15px 85px 15px !important;
   }
   .contacts-page__imgOne {
     width: 128px !important;
@@ -95,6 +95,13 @@
     padding: 98px 15px 115px 15px !important;
   }
   .panel-block {
-    padding-bottom: 5px !important;
+    padding:24px 15.5px !important;
+  }
+  .contacts-page__imgOne > img{
+    object-fit: cover !important;
+    width: 150%;
+  }
+  .section4-container-block__contacts{
+    border-right: none;
   }
 }

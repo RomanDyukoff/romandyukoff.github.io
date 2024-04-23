@@ -140,7 +140,7 @@
     padding-bottom: 67px !important;
   }
   .slider-section {
-    padding-top: 116px !important;
+    padding-top: 67px !important;
     padding-bottom: 60px !important;
   }
   .slider-section-line-l {
@@ -165,9 +165,18 @@
     height: 668px;
     gap: 0;
   }
+  .swiper-container{
+    height: auto !important;
+  }
   .restaurant-page__inputs {
     padding-bottom: 0 !important;
     gap: 23px 15px !important;
+  }
+  .section5-container-block__restoran{
+    border-right: none !important;
+  }
+  .section5-container-block__restoran:nth-child(2n){
+    border-left: 1px solid #454545 !important;
   }
   div.restaurant-page__line1 {
     left: 19% !important;
@@ -176,6 +185,12 @@
     right: 19% !important;
   }
     .section6__restoran{
-    padding-bottom: 80px !important;
+    padding-bottom: 120px !important;
   }
+  .galleryAnim {
+    padding: 180px 0 100px 0 !important;
+}
+.galleryAnim__title{
+  line-height: 16px;
+}
 }

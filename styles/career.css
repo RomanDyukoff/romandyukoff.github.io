@@ -117,4 +117,7 @@ div.career__page-form > p{
 .line-none__centre {
     height: 100% !important;
 }
+ .section4-container-block-part__careeer h3{
+    width: 43% !important;
+  }
 }

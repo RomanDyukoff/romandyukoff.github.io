@@ -52,6 +52,9 @@ a,
 button {
   transition: 0.5s;
 }
+button{
+  color: rgba(13, 13, 13, 1);
+}
 .footer-bottom-social-ellipse:hover,
 .btn-footer-rev:hover {
   background: #dfdfdf;
@@ -633,7 +636,7 @@ footer {
   width: 161px;
   height: 38px;
   text-transform: uppercase;
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 14px;
   font-weight: 450;
   line-height: 18px;
@@ -4821,10 +4824,10 @@ body .galleryAnim .galleryAnim__fraction {
   margin: 0 auto;
   color: #dfdfdf;
   text-align: center;
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 450;
   line-height: 26px;
   letter-spacing: 1px;
   transition: all 1.6s ease 0s;
@@ -6419,7 +6422,7 @@ header {
   display: none;
 }
 .burger__dropbtn-mob > span {
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 18px;
   font-weight: 450;
   line-height: 24px;

@@ -46,7 +46,9 @@
   .footer-bottom-social{
     padding-right: 0;
   }
-
+.galleryAnim{
+  border-top: none;
+}
 }
 @media (max-width: 475px) {
   div.page-main__line2 {
@@ -54,5 +56,8 @@
   }
   div.page-main__line3 {
     right: 60px !important;
+  }
+  .galleryAnim__title{
+    line-height: 16px;
   }
 }

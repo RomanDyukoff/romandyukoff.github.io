@@ -380,4 +380,16 @@ h1.sertificate-page__main-h1 {
     width: 225px;
     height: 286px;
   }
+  .mySwipersertificate-block{
+    padding-bottom: 80px !important;
+  }
+  .sertificate__itemsList-stepThree{
+    width: 100%;
+  }
+  .sertificate__footer > button{
+    width: 120px !important;
+  }
+  .sertificate__footer{
+    gap: 0  !important;
+  }
 }

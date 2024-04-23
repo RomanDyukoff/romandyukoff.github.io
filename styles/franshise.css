@@ -100,6 +100,9 @@ h3 {
 .franchise-page__blocklast-br p br {
   display: none;
 }
+.letter-spacing-mob{
+  display: none;
+}
 @media (min-width: 1150px) {
   .franchise-page__blocklast-br p br {
     display: block;
@@ -166,6 +169,28 @@ h3 {
 }
 .franchise-page__container-list > div > p{
   padding-left: 0;
+}
+}
+@media (max-width: 550px) {
+  .letter-spacing-mob{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section1__restoran-laptop{
+  display: none !important;
+}
+.section4-title__franchise{
+  opacity: 1 !important;
+}
+.franchise__wrapper{
+  border-top: none;
+}
+div.franchise-page-form{
+  padding: 70px  0px 76px 0px !important
+}
+.franchise-page__container-img-f{
+  padding: 8px 15px 15px 15px !important;
 }
 }
 @media (max-width: 475px) {

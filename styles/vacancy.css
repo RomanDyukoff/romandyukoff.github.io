@@ -13,3 +13,8 @@
     line-height: 48px !important;
   }
 }
+@media (max-width: 475px) {
+  .section4-container-block-part__careeer h3{
+    width: 43%;
+  }
+}

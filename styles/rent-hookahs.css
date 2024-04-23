@@ -391,6 +391,9 @@ button.controller-form {
 .rent-page__btn-form-mob {
   display: none;
 }
+.br-mob{
+  display: none;
+}
 @media (max-width: 1650px) {
   .section3-container-block__rent-hookahs {
     flex: 1 0 50%;
@@ -475,7 +478,12 @@ button.controller-form {
   .section3-container-block__rent-hookahs > img {
     width: 44%;
   }
-  
+  .br-mob{
+    display: block !important;
+  }
+  .section5-text__rent-hookahs{
+    display: none;
+  }
   .section1__rent-hookahs {
     padding-bottom: 13px !important;
     padding-top: 168px !important;
@@ -486,9 +494,11 @@ button.controller-form {
   .section5-text__rent-hookahs {
     font-size: 32px !important;
     line-height: 32px !important;
-    letter-spacing: -3px !important;
+    letter-spacing: 0.01em !important;
   }
-
+.section3-container-block__rent-hookahs > span{
+  padding-top: 0;
+}
   .rent-page__container > div {
     width: 167px !important;
     height: 194px !important;
@@ -516,5 +526,10 @@ button.controller-form {
   .section5-text__rent-hookahs-title > p {
     font-size: 32px;
     line-height: 32px;
+  }
+  .panel-block2-bottom__rent-hookahs span{
+    display: block;
+    max-width: 250px;
+    width: 100%;
   }
 }
