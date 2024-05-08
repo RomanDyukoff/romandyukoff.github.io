@@ -707,8 +707,8 @@ text-align: left;
   z-index: 9999999999;
 }
 .section1-container-img-blur__secret-assistants {
-  width: 84%;
-  height: 84%;
+  width: 84% !important;
+  height: 84% !important;
   position: absolute;
   top: 0;
   left: 0;
@@ -1866,7 +1866,7 @@ p.section3-content-p__loyalty-program {
   font-style: normal;
   font-weight: 400;
   line-height: 48px; /* 120% */
-  letter-spacing: -0.4px;
+  letter-spacing: 0.02em !important;
   text-transform: uppercase;
 }
 .section3-container-block__bankets img {
@@ -2720,9 +2720,10 @@ p.section3-content-p__loyalty-program {
   font-style: normal;
   font-weight: 400;
   line-height: 48px; /* 120% */
-  letter-spacing: 1px;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   width: 50%;
+  
 }
 .container {
   position: relative;

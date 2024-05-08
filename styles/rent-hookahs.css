@@ -394,6 +394,13 @@ button.controller-form {
 .br-mob{
   display: none;
 }
+.section6-container-block__rent-hookahs:last-child{
+  border-bottom: none;
+}
+.panel-blocks-form-select__rent-hookahs svg{
+  top: 30%;
+  transform: translate(-30%, 0);
+}
 @media (max-width: 1650px) {
   .section3-container-block__rent-hookahs {
     flex: 1 0 50%;
@@ -475,6 +482,10 @@ button.controller-form {
   }
 }
 @media (max-width: 475px) {
+  .panel-blocks-form__rent-hookahs{
+    border-right: none;
+    border-left: none;
+  }
   .section3-container-block__rent-hookahs > img {
     width: 44%;
   }

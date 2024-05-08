@@ -2556,7 +2556,7 @@
     line-height: 16px;
   }
   .custom-radio + label {
-    font-size: min(12px, 2.2vw) !important;
+    font-size: 12px !important;
     line-height: 16px; /* 133.333% */
   }
   .section7-inputs__secret-assistants button {
@@ -2742,7 +2742,8 @@
     padding-bottom: 105px;
   }
   .section4-container-block__vacancy ul li {
-    line-height: 16px;
+    font-size: 14px !important;
+    line-height: 16px !important;
   }
 
   .section3-container-block__bankets p {
@@ -2886,6 +2887,14 @@
   .galleryAnim::before {
     max-width: 345px;
   }
+  .section3-container-block__bankets span {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0 15px;
+  }
+  .section3-container-block-bg__secret-assistants{
+        -webkit-filter: blur(50px);
+  }
 }
 @media (max-width: 405px) {
   .section3-container-block-bg__secret-assistants {
@@ -2910,11 +2919,7 @@
     max-width: 345px;
     padding-top: 110px;
   }
-  .section3-container-block__bankets span {
-    font-size: 12px;
-    line-height: 16px;
-    padding: 0 15px;
-  }
+  
   .section1-img__main2 {
     left: 9%;
     bottom: 21%;
@@ -5325,7 +5330,7 @@
   }
   .section2-container__franchise img {
     width: 115px;
-    top: -37% !important;
+    top: -43% !important;
   }
   .section2-container-bottom__franchise {
     margin-top: 50px !important;
@@ -5555,9 +5560,21 @@ font-size: 14px;
 header{
   padding-bottom: 0;
 }
+.section1-container-img-blur__secret-assistants{
+  -webkit-filter: blur(40px);
+}
+  .section2-container__franchise img {
+    transform: rotate(11deg);
+  }
+   .section3-container__franchise p {
+    width: 255px;
+  }
 }
 
 @media (max-width: 405px) {
+   .section2-container__franchise img {
+    top: -37% !important;
+  }
   .section7-container-input-block__restoran {
     width: 47.5%;
   }
@@ -5589,9 +5606,7 @@ header{
   .section-last-p__main {
     width: 340px;
   }
-  .section3-container__franchise p {
-    width: 255px;
-  }
+ 
   .section3-container-img__franchise {
     width: 100%;
   }
@@ -5603,9 +5618,7 @@ header{
   .section2-container__franchise {
     margin-top: 60px;
   }
-  .section2-container__franchise img {
-    transform: rotate(11deg);
-  }
+
   .accordion {
     height: 60px;
   }

@@ -491,8 +491,15 @@ p.catering-page__general-p {
   .section7-container-block__catering{
     padding: 40px 20px !important;
   }
+  .section4-container-block-part__careeer{
+    border-left: none !important;
+  }
 }
-
+@media (min-width: 408px) and (max-width: 450px) {
+  .section3-img2__catering{
+      top: 123px !important; 
+  }
+}
 @media (max-width: 475px) {
   p.catering-page__general-p {
   padding-top: 75px !important;

@@ -110,6 +110,7 @@
   }
   .loyalty-program__page-panel {
     padding-bottom: 0 !important;
+        border-bottom: none !important;
   }
 }
 @media (max-width: 475px) {

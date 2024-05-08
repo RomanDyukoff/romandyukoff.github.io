@@ -12,7 +12,10 @@ const modal = document.querySelector(".news__modal");
 const formSteps = [...document.querySelector(".sertificate__right").children];
 const points = [...document.querySelector(".sertificate__items").children];
 const steps = [
-  ...document.querySelector(".sertificate__action-navigate").children,
+  ...document.querySelector(".sertificate__action-navigate-h").children,
+];
+const stepsTwo = [
+  ...document.querySelector(".sertificate__action-navigate-not").children,
 ];
 const city = document.querySelector(".addCity");
 const restoran = document.querySelector(".addRestoran");
@@ -37,6 +40,9 @@ const handleStepNext = () => {
   steps.forEach((el, i) =>
     i === step ? el.classList.remove("sertificate__action-hidden") : el
   );
+   stepsTwo.forEach((el, i) =>
+     i === step ? el.classList.remove("sertificate__action-hidden") : el
+   );
   formSteps.forEach((el, i) =>
     i === step
       ? el.classList.remove("step-hidden")
@@ -50,6 +56,9 @@ const handleStepNext = () => {
 const handleStepPrev = () => {
   step === 0 ? step : --step;
   steps.forEach((el, i) =>
+    i >= step + 1 ? el.classList.add("sertificate__action-hidden") : el
+  );
+  stepsTwo.forEach((el, i) =>
     i >= step + 1 ? el.classList.add("sertificate__action-hidden") : el
   );
   formSteps.forEach((el, i) =>

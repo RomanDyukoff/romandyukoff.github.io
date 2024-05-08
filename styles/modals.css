@@ -296,7 +296,7 @@
     top: 0;
   }
   .age-us-container{
-      max-width: 341px !important;
+      max-width: 279px !important;
   }
   .univers__container {
     max-width: 100%;
@@ -359,6 +359,7 @@
   }
   .cookies-mw__EN {
     max-width: 341px;
+    bottom: 2%;
   }
   .cookies-content__EN {
     height: 300px;

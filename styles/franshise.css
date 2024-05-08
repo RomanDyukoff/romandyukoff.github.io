@@ -103,6 +103,12 @@ h3 {
 .letter-spacing-mob{
   display: none;
 }
+.block-wrapper-one{
+  border-top: 1px solid #454545 !important;
+}
+.franchise-page__container-list > div:last-child{
+  border-bottom: none;
+}
 @media (min-width: 1150px) {
   .franchise-page__blocklast-br p br {
     display: block;

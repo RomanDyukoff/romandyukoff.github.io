@@ -237,7 +237,7 @@ input {
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: -1px;
+  letter-spacing: 0.02em;
   text-align: left;
   flex-basis: 50%;
   color: #dfdfdf;
@@ -317,7 +317,7 @@ h1.sertificate-page__main-h1 {
   .sertificate__content {
     flex: 1 0 50%;
     justify-content: stretch;
-    padding: 40px 20px 0 20px;
+    padding: 40px 20px 60px 20px ;
   }
   .sertificate__footer {
     border-top: 1px solid #454545;
