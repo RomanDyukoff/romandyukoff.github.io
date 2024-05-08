@@ -98,6 +98,7 @@ body {
   position: relative;
   height: auto;
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 h1,
 h2,
