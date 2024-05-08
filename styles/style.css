@@ -95,10 +95,13 @@ body {
 html,
 body {
   margin: 0;
-  position: relative;
-  height: auto;
+
   scroll-behavior: smooth;
   overscroll-behavior: none;
+    height: 100%;
+  width: 100%;
+  overflow: auto;
+  position: fixed;
 }
 h1,
 h2,
