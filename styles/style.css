@@ -100,8 +100,8 @@ body {
   overscroll-behavior: none;
     height: 100%;
   width: 100%;
-  overflow: auto;
-  position: fixed;
+  /* overflow: auto;
+  position: fixed; */
 }
 h1,
 h2,
