@@ -200,6 +200,9 @@ div.franchise-page-form{
 }
 }
 @media (max-width: 475px) {
+  .section-map-bottom__franchise{
+    width: 160px;
+  }
   .franchise-page-swiper__mob {
     max-width: 375px;
     width: 100%;
@@ -220,6 +223,6 @@ div.franchise-page-form{
     flex-direction: column !important;
   }
   .mob-slide-mr{
-    margin-bottom: 75px;
+    margin-bottom: 50px;
   }
 }
