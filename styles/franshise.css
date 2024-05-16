@@ -219,4 +219,7 @@ div.franchise-page-form{
   .section6-container-block-part__franchise {
     flex-direction: column !important;
   }
+  .mob-slide-mr{
+    margin-bottom: 75px;
+  }
 }

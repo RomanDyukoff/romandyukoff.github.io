@@ -363,6 +363,9 @@ h1.sertificate-page__main-h1 {
   }
 }
 @media (max-width: 475px) {
+ .sertificate-page__main-h1 > br{
+  display: block !important;
+ }
   .sertificate-page__wrapper-h1 > h1 {
     font-size: 40px;
     line-height: 40px;
@@ -392,4 +395,9 @@ h1.sertificate-page__main-h1 {
   .sertificate__footer{
     gap: 0  !important;
   }
+}
+@media (max-width: 375px) {
+.sertificate-page__main-h1 > br{
+  display: none !important;
+ }
 }

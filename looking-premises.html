@@ -520,20 +520,23 @@
             <input
               type="tel"
               placeholder="Телефон"
+              value=""
               class="input-tel__secret-assistants"
+              pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
+              onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
             />
             <input
-              type="tel"
+              type="text"
               placeholder="Город"
               class="input-city__secret-assistants"
             />
             <input
-              type="tel"
+              type="text"
               placeholder="Адрес помещения"
               class="input-adress__secret-assistants"
             />
             <input
-              type="tel"
+              type="text"
               placeholder="Комментарий"
               class="input-comment__secret-assistants"
             />
