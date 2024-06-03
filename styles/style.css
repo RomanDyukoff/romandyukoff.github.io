@@ -52,7 +52,7 @@ a,
 button {
   transition: 0.5s;
 }
-button{
+button {
   color: rgba(13, 13, 13, 1);
 }
 .footer-bottom-social-ellipse:hover,
@@ -65,9 +65,9 @@ h1 {
   margin: 0 !important;
 }
 input {
-   -webkit-appearance: none;
+  -webkit-appearance: none;
 
--webkit-border-radius: 0;
+  -webkit-border-radius: 0;
 }
 .section2-block__contacts button:hover,
 .form-send-btn:hover,
@@ -95,10 +95,10 @@ body {
 html,
 body {
   margin: 0;
-
+  background: #0d0d0d;
   scroll-behavior: smooth;
   overscroll-behavior: none;
-    height: 100%;
+  height: 100%;
   width: 100%;
   /* overflow: auto;
   position: fixed; */
@@ -527,14 +527,13 @@ footer {
   letter-spacing: 0.6px;
   text-transform: uppercase;
 }
-.burger__search > input::placeholder{
+.burger__search > input::placeholder {
   font-family: "FuturaPT", sans-serif;
-font-size: 20px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0.01em;
-text-align: left;
-
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
 }
 .menu__btn {
   display: flex;
@@ -1306,6 +1305,7 @@ footer {
   display: none;
   position: absolute;
   left: 23%;
+  z-index: -1;
   height: 100%;
   border-left: 1px solid #454545;
 }
@@ -1313,6 +1313,7 @@ footer {
   display: none;
   position: absolute;
   right: 23%;
+  z-index: -1;
   height: 100%;
   border-right: 1px solid #454545;
 }
@@ -2707,7 +2708,7 @@ p.section3-content-p__loyalty-program {
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%,0);
+  transform: translate(-50%, 0);
   width: 1px;
   height: 100%;
   background-color: #454545;
@@ -2727,7 +2728,6 @@ p.section3-content-p__loyalty-program {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   width: 50%;
-  
 }
 .container {
   position: relative;
@@ -3216,6 +3216,7 @@ p.section3-content-p__loyalty-program {
   border-left: 1px solid #454545;
   position: absolute;
   left: 23%;
+  z-index: -1;
   height: 100%;
   display: none;
 }
@@ -3223,6 +3224,7 @@ p.section3-content-p__loyalty-program {
   border-right: 1px solid #454545;
   position: absolute;
   right: 23%;
+  z-index: -1;
   height: 100%;
   display: none;
 }
@@ -3687,7 +3689,6 @@ p.section3-content-p__loyalty-program {
   display: flex;
   flex-wrap: wrap;
   gap: 42px 20px;
-  padding-top: 42px;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
@@ -6086,6 +6087,7 @@ header {
   justify-content: center;
   width: 160px;
   height: 40px;
+  padding: 20px;
   border-radius: 20px;
   background: #dfdfdf;
   font-family: "FuturaPTM", sans-serif;

@@ -874,21 +874,22 @@
               </svg>
             </div>
             <input
-              type="text"
-              placeholder="Телефон"
-              class="modal-header-book-content-middle-short"
+               type="text"
+                id="zipCode" onkeyup="mask('zipCode', '+7(000)000-00-00', event);"
+                placeholder="Телефон"
+              class="modal-header-book-content-middle-short tel middle-mob"
             />
             <input
               type="number"
               placeholder="Количество человек"
-              class="modal-header-book-content-middle-short"
+              class="modal-header-book-content-middle-short middle-mob"
             />
-            <div class="date-input">
+            <div class="date-input middle-mob">
 
               <input
               type="date"
               placeholder="Дата"
-              class="modal-header-book-content-middle-short"
+              class="modal-header-book-content-middle-short middle-mob"
             />
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -905,12 +906,12 @@
             </div>
             
             <input
-              type="time"
+              type="text"
               placeholder="Время"
-              class="modal-header-book-content-middle-short"
+              onfocus="this.type='time'"
+              onblur="this.type='text'"
+              class="modal-header-book-content-middle-short middle-mob"
             />
-   
-            
             <div class="radio">
               <input
                 class="custom-radio"
@@ -1293,7 +1294,7 @@
     <section class="univers__modal">
       <div class="univers__wrapper">
         <div class="univers__backdrop"></div>
-        <div class="univers__container book__container age-us-container">
+        <div class="univers__container book__container age-us-container modal-not-eightteen">
           <div class="age-container">
             <h2 class="age-title">Спасибо, дорогой друг!</h2>
             <span class="age-desc"

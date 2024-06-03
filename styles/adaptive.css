@@ -2898,8 +2898,8 @@
 }
 @media (max-width: 405px) {
   .section3-container-block-bg__secret-assistants {
-    width: 150%;
-    height: 150%;
+    width: 100%;
+    height: 100%;
   }
 
   .section7-container-input-block__restoran {
@@ -3757,7 +3757,7 @@
     display: block;
   }
   .section2-container__franchise img {
-    top: -32% !important;
+    top: -68% !important;
   }
   /*big title 84px*/
   .section6-title__restoran,
@@ -4727,7 +4727,11 @@
     margin-top: 26%;
   }
 }
-
+@media (max-width: 650px){
+   .section2-container__franchise img {
+    top: -42% !important;
+  }
+}
 @media (max-width: 475px) {
   .panel-blocks-form__rent-hookahs input,
   .panel-blocks-form__rent-hookahs select {
@@ -5049,7 +5053,7 @@
     margin-top: 0;
   }
   .face3__secret-assistants {
-    bottom: -41%;
+    bottom: -53%;
     width: 26%;
   }
   .face2__secret-assistants {
@@ -5244,7 +5248,7 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
-    letter-spacing: 2px;
+    letter-spacing: 0.03rem;
     text-align: left;
   }
   .footer-bottom {

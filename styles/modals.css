@@ -229,7 +229,7 @@
   align-items: center;
 }
 .cookies-preferences-mw {
-  max-width: 950px;
+  max-width: 950px !important;
 }
 .cookies-preferences-title {
   max-width: 950px;
@@ -249,7 +249,7 @@
     max-width: 596px;
   }
   .cookies-mw__EN {
-    max-width: 694px;
+    max-width: 694px !important;
   }
   .item-EN,
   .cookies-preferences-title {
@@ -298,6 +298,9 @@
   .age-us-container{
       max-width: 279px !important;
   }
+  .modal-not-eightteen{
+    max-width: 323px !important;
+  }
   .univers__container {
     max-width: 100%;
   }
@@ -312,6 +315,8 @@
   .age-desc {
     font-size: 12px;
     line-height: 16px;
+    height: 48px;
+        display: block;
   }
   .age-Not {
     gap: 20px;
@@ -339,7 +344,7 @@
     font-size: 10px;
     line-height: 13px;
     gap:0;
-    letter-spacing: -0.01em;
+    letter-spacing: 0.01em;
   }
   .cookies-title__EN{
     font-size: 12px;
@@ -358,7 +363,7 @@
     width: 100%;
   }
   .cookies-mw__EN {
-    max-width: 341px;
+    max-width: 361px !important;
     bottom: 2%;
   }
   .cookies-content__EN {
@@ -388,5 +393,8 @@
     font-size: 32px;
     line-height: 38px;
     letter-spacing: 0px;
+  }
+  .middle-mob{
+    width: 100% !important;
   }
 }

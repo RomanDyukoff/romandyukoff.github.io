@@ -618,10 +618,11 @@
                 placeholder="ФИО"
                 class="input-name__secret-assistants"
               />
-              <input
-                type="tel"
+               <input
+                type="text"
+                id="zipCode" onkeyup="mask('zipCode', '+7(000)000-00-00', event);"
                 placeholder="Телефон"
-                class="input-tel__secret-assistants"
+                class="input-tel__secret-assistants tel"
               />
               <input
                 type="text"
@@ -709,12 +710,16 @@
       </div>
     </footer>
 
-    <div class="modal-header-book">
+       <div class="modal-header-book">
       <div class="modal-header-book-content">
         <div class="modal-header-book-content-part">
           <div class="modal-header-book-content-top">
             <p>Забронировать стол</p>
-            <img src="/img/Close.png" alt="" class="modal-header-book-close" />
+            <img
+              src="/img/Close.png"
+              alt=""
+              class="modal-header-book-close"
+            />
           </div>
           <div class="modal-header-book-content-middle">
             <input type="text" placeholder="Имя" />
@@ -737,22 +742,24 @@
               </svg>
             </div>
             <input
-              type="text"
-              placeholder="Телефон"
-              class="modal-header-book-content-middle-short"
+               type="text"
+                id="zipCode" onkeyup="mask('zipCode', '+7(000)000-00-00', event);"
+                placeholder="Телефон"
+              class="modal-header-book-content-middle-short tel middle-mob"
             />
             <input
               type="number"
               placeholder="Количество человек"
-              class="modal-header-book-content-middle-short"
+              class="modal-header-book-content-middle-short middle-mob"
             />
-            <div class="date-input">
+            <div class="date-input middle-mob">
+
               <input
-                type="date"
-                placeholder="Дата"
-                class="modal-header-book-content-middle-short"
-              />
-              <svg
+              type="date"
+              placeholder="Дата"
+              class="modal-header-book-content-middle-short middle-mob"
+            />
+            <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="8"
                 height="10"
@@ -765,13 +772,14 @@
                 />
               </svg>
             </div>
-
+            
             <input
-              type="time"
+              type="text"
               placeholder="Время"
-              class="modal-header-book-content-middle-short"
+              onfocus="this.type='time'"
+              onblur="this.type='text'"
+              class="modal-header-book-content-middle-short middle-mob"
             />
-
             <div class="radio">
               <input
                 class="custom-radio"

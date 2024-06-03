@@ -485,17 +485,18 @@
             />
             <input
               type="text"
-              placeholder="Интересующая вакансия"
+              placeholder="Вакансия"
               class="input-city__secret-assistants"
             />
             <input
-              type="tel"
+               type="text"
+                id="zipCode" onkeyup="mask('zipCode', '+7(000)000-00-00', event);"
               placeholder="Телефон"
-              class="input-tel__secret-assistants"
+              class="input-tel__secret-assistants tel"
             />
             <input
               type="tel"
-              placeholder="Ссылка на аккаунт в соц. сетях"
+              placeholder="Ссылка на соцсети"
               class="input-tel__secret-assistants"
             />
             <div class="form-files">
@@ -611,7 +612,7 @@
         });
       });
     </script>
-     <div class="modal-header-book">
+       <div class="modal-header-book">
       <div class="modal-header-book-content">
         <div class="modal-header-book-content-part">
           <div class="modal-header-book-content-top">
@@ -643,21 +644,22 @@
               </svg>
             </div>
             <input
-              type="text"
-              placeholder="Телефон"
-              class="modal-header-book-content-middle-short"
+               type="text"
+                id="zipCode" onkeyup="mask('zipCode', '+7(000)000-00-00', event);"
+                placeholder="Телефон"
+              class="modal-header-book-content-middle-short tel middle-mob"
             />
             <input
               type="number"
               placeholder="Количество человек"
-              class="modal-header-book-content-middle-short"
+              class="modal-header-book-content-middle-short middle-mob"
             />
-            <div class="date-input">
+            <div class="date-input middle-mob">
 
               <input
               type="date"
               placeholder="Дата"
-              class="modal-header-book-content-middle-short"
+              class="modal-header-book-content-middle-short middle-mob"
             />
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -674,12 +676,12 @@
             </div>
             
             <input
-              type="time"
+              type="text"
               placeholder="Время"
-              class="modal-header-book-content-middle-short"
+              onfocus="this.type='time'"
+              onblur="this.type='text'"
+              class="modal-header-book-content-middle-short middle-mob"
             />
-   
-            
             <div class="radio">
               <input
                 class="custom-radio"

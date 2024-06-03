@@ -383,13 +383,14 @@
       <section
         class="section1__secret-assistants section1__loyalty-program sertificate-page__wrapper"
       >
-       
         <div class="container">
           <div
             class="section1-container__secret-assistants sertificate-page__wrapper-h1 sertificate-page__blocklast-br"
           >
             <h1 class="sertificate-page__main-h1">
-              Подарочные сертификаты <br /> в Tangiers Lounge<br /> от Мистера Т.
+              Подарочные сертификаты <br />
+              в Tangiers Lounge<br />
+              от Мистера Т.
             </h1>
             <div class="section1-container-img__secret-assistants">
               <img
@@ -781,8 +782,10 @@
                       <div class="sertificate__inputs">
                         <input
                           type="text"
+                          id="zipCode"
+                          onkeyup="mask('zipCode', '+7(000)000-00-00', event);"
                           placeholder="Ваш телефонный номер"
-                          class="input-city__secret-assistants myPhone"
+                          class="input-city__secret-assistants myPhone tel"
                           name="myPhone"
                         />
                         <input
@@ -916,11 +919,7 @@
         <div class="modal-header-book-content-part">
           <div class="modal-header-book-content-top">
             <p>Забронировать стол</p>
-            <img
-              src="/img/Close.png"
-              alt=""
-              class="modal-header-book-close"
-            />
+            <img src="/img/Close.png" alt="" class="modal-header-book-close" />
           </div>
           <div class="modal-header-book-content-middle">
             <input type="text" placeholder="Имя" />
@@ -944,22 +943,23 @@
             </div>
             <input
               type="text"
+              id="zipCode"
+              onkeyup="mask('zipCode', '+7(000)000-00-00', event);"
               placeholder="Телефон"
-              class="modal-header-book-content-middle-short"
+              class="modal-header-book-content-middle-short tel middle-mob"
             />
             <input
               type="number"
               placeholder="Количество человек"
-              class="modal-header-book-content-middle-short"
+              class="modal-header-book-content-middle-short middle-mob"
             />
-            <div class="date-input">
-
+            <div class="date-input middle-mob">
               <input
-              type="date"
-              placeholder="Дата"
-              class="modal-header-book-content-middle-short"
-            />
-            <svg
+                type="date"
+                placeholder="Дата"
+                class="modal-header-book-content-middle-short middle-mob"
+              />
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="8"
                 height="10"
@@ -972,14 +972,14 @@
                 />
               </svg>
             </div>
-            
+
             <input
-              type="time"
+              type="text"
               placeholder="Время"
-              class="modal-header-book-content-middle-short"
+              onfocus="this.type='time'"
+              onblur="this.type='text'"
+              class="modal-header-book-content-middle-short middle-mob"
             />
-   
-            
             <div class="radio">
               <input
                 class="custom-radio"
@@ -1033,7 +1033,7 @@
             <div class="cookies-title">
               <h3>Мы используем файлы cookies</h3>
               <span
-                >Оставаясь на сайте, вы соглашаетесь c<a  href="#">
+                >Оставаясь на сайте, вы соглашаетесь c<a href="#">
                   условиями использования cookies.</a
                 ></span
               >
@@ -1225,7 +1225,9 @@
                   <label for="color-2"></label>
                 </div>
                 <div class="item-EN">
-                  <span class="item-EN__color">Essential Cookies (14) <u>Details</u></span>
+                  <span class="item-EN__color"
+                    >Essential Cookies (14) <u>Details</u></span
+                  >
                   <span
                     >These cookies are necessary to the core functionality of
                     our website and some of its features, such as access to
@@ -1245,8 +1247,7 @@
                   <label for="color-3"></label>
                 </div>
                 <div class="item-EN">
-                  <span
-                  class="item-EN__color"
+                  <span class="item-EN__color"
                     >Performance and Functionality Cookies (11)
                     <u>Details</u></span
                   >
@@ -1270,8 +1271,7 @@
                   <label for="color-13"></label>
                 </div>
                 <div class="item-EN">
-                  <span
-                  class="item-EN__color"
+                  <span class="item-EN__color"
                     >Analytics and Customization Cookies (18)
                     <u>Details</u></span
                   >
@@ -1296,7 +1296,9 @@
                   <label for="color-14"></label>
                 </div>
                 <div class="item-EN">
-                  <span class="item-EN__color">Advertising Cookies (15) <u>Details</u></span>
+                  <span class="item-EN__color"
+                    >Advertising Cookies (15) <u>Details</u></span
+                  >
                   <span
                     >These cookies are used to make advertising messages more
                     relevant to you. They prevent the same ad from continuously
@@ -1318,7 +1320,9 @@
                   <label for="color-15"></label>
                 </div>
                 <div class="item-EN">
-                  <span class="item-EN__color">Social networking Cookies (15) <u>Details</u></span>
+                  <span class="item-EN__color"
+                    >Social networking Cookies (15) <u>Details</u></span
+                  >
                   <span
                     >These cookies enable you to share our website's content
                     through third-party social networks and other websites.
@@ -1339,7 +1343,9 @@
                   <label for="color-17"></label>
                 </div>
                 <div class="item-EN">
-                  <span class="item-EN__color">Unclassified Cookies (15) <u>Details</u></span>
+                  <span class="item-EN__color"
+                    >Unclassified Cookies (15) <u>Details</u></span
+                  >
                   <span
                     >These are cookies that have not yet been categorized. We
                     are in the process of classifying these cookies with the

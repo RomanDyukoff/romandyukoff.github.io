@@ -31,4 +31,5 @@ btnNext.addEventListener("click", () => {
          : el.classList.remove("section7-p__vacancy-active")
      );
 });
- console.log(activeSlide);
+console.log(activeSlide);
+ 
