@@ -1785,8 +1785,9 @@ p.section3-content-p__loyalty-program {
 }
 .section6-content__loyalty-program {
   display: flex;
+  justify-content: space-between;
   gap: 84px 7vw;
-  padding: 120px 99px;
+  padding: 120px 40px;
   flex-wrap: wrap;
 }
 .section6__loyalty-program {
