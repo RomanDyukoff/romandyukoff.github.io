@@ -4743,6 +4743,7 @@
   .section3-container-left__sertificate p {
     max-width: 165px;
   }
+  
   .btn__width {
     display: block;
     border-radius: 32px;
@@ -4753,6 +4754,7 @@
     font-weight: 450;
     line-height: 14px;
     letter-spacing: 0.05em;
+    text-transform: uppercase;
     text-align: center;
   }
   .section4-title__restoran1 {

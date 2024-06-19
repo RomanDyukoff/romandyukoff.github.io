@@ -264,10 +264,11 @@ p.catering-page__general-p {
   font-size: 20px;
   font-weight: 450;
   line-height: 26px;
-  letter-spacing: 0.6px;
+letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
 }
+
 .catering__inputs {
   display: flex;
   width: 100%;

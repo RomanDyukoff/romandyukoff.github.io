@@ -93,6 +93,7 @@
     line-height: 26px;
     letter-spacing: 0.03em;
   }
+  .error-desc > p> a,
   .error-desc > p {
     font-size: 12px;
     line-height: 15.6px;
