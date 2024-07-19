@@ -5658,6 +5658,9 @@ header{
   .section1__restoran-mob {
     width: 100%;
   }
+  .custom-radio + label{
+    font-size: 10px !important;
+  }
 }
 
 @media (max-width: 330px) {
