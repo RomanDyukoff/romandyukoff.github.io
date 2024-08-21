@@ -186,9 +186,9 @@ font-family: "FuturaPTM", sans-serif;
 }
 .sertificate__items-stepThree > span,
 .sertificate__item-stepTwo > span {
-  font-family: "FuturaPT", sans-serif;
+  font-family: "FuturaPTM", sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 450;
   line-height: 26px;
   letter-spacing: 0.01em;
   text-align: left;
@@ -204,9 +204,9 @@ input {
   color: #454545;
   font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 26px; /* 130% */
-  letter-spacing: 0.2px;
+  letter-spacing: 0.01em;
 }
 .sertificate__svg > svg {
   right: 5px;

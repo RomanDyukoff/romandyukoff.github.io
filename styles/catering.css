@@ -308,7 +308,7 @@ p.catering-page__general-p {
 .tooltip {
   display: none;
 }
-.active__tooltip:hover ~ .tooltip {
+.active__tooltip:hover >.tooltip {
   display: flex;
 }
 .tooltip__catering {
@@ -321,7 +321,7 @@ p.catering-page__general-p {
   border-radius: 0 !important;
   max-width: 470px !important;
   padding: 20px !important;
-  text-transform: math-auto;
+  text-transform: initial;
   top: 16%;
 }
 .catering__actions-br > br {
@@ -504,6 +504,10 @@ p.catering-page__general-p {
 @media (max-width: 475px) {
   p.catering-page__general-p {
   padding-top: 75px !important;
+}
+.tooltip{
+  border-right: none;
+  border-left: none;
 }
   .catering-page__wrapper {
     padding-top: 177px !important;

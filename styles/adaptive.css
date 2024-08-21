@@ -4730,6 +4730,11 @@
 @media (max-width: 650px){
    .section2-container__franchise img {
     top: -42% !important;
+
+  }
+  .section7-container-block__catering:nth-child(3),
+  .section7-container-block__catering:first-child{
+    border-right: none;
   }
 }
 @media (max-width: 475px) {
@@ -5159,7 +5164,6 @@
   .section2-block__contacts button {
     width: 124px;
     height: 34px;
-    font-family: "FuturaPT", sans-serif;
     font-size: 12px;
     line-height: 14px; /* 125% */
   }
@@ -5620,6 +5624,9 @@ header{
   .section3-container-block__franchise {
     width: 68%;
   }
+  .custom-radio + label {
+    font-size: 10px !important;
+  }
 
   .section2-container__franchise {
     margin-top: 60px;
@@ -5659,7 +5666,7 @@ header{
     width: 100%;
   }
   .custom-radio + label{
-    font-size: 10px !important;
+    font-size: 8px !important;
   }
 }
 

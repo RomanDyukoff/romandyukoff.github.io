@@ -141,6 +141,7 @@ h3 {
   .franchise-page-swiper-title__mob {
     position: absolute;
     padding: 20px;
+    z-index: 99999999;
   }
   p.franchise-page-swiper-desc__mob {
     max-width: 630px;
